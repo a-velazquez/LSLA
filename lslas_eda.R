@@ -9,7 +9,7 @@ domestic_deals <- fread("raw/domestic/deals.csv")
 transnational_deals <- fread("raw/transnational/deals.csv")
 
 
-clean_deals <- function(df, original, keep_countries){
+clean_deals <- function(df, original, keep_countries=FALSE){
   df[,`:=`(`Deal ID`, as.integer(`Deal ID`))]
   df<-df[grepl("Contract signed",`Negotiation status`, fixed = TRUE)]
   
@@ -40,11 +40,11 @@ clean_deals <- function(df, original, keep_countries){
 }
 
 domestic_deals <- clean_deals(domestic_deals, TRUE)
-domestic_tm <- clean_deals(domestic_deals, FALSE, TRUE)
+domestic_tm <- clean_deals(domestic_deals, FALSE)
 
 
 transnational_deals <- clean_deals(transnational_deals, TRUE)
-transnational_tm <- clean_deals(transnational_deals, FALSE, TRUE)
+transnational_tm <- clean_deals(transnational_deals, FALSE)
 
 deals_tm <- rbind(transnational_tm, domestic_tm) 
 deals_tm <- deals_tm[,sum(N), by=c("year", "Deal scope")]
@@ -109,11 +109,13 @@ ggplot(deals_tm[(year(year) > 1990 & year(year) <= 2022)], aes(x=year, y=V1, col
   geom_point()+
   theme_minimal()+
   labs(title="Large Scale Land Acquisitions\n",
-       x="Year", y="Number of Contracts Signed\n")+
-  scale_x_date(date_breaks = "1 year", date_labels = "%Y")+
+       x="\nYear", y="Number of Contracts Signed\n")+
+  scale_x_date(date_breaks = "1 year", date_labels = "%Y", 
+               limits = c(as.Date("12-31-1990", "%Y-%m-%d"),as.Date("12-31-2021", "%Y-%m-%d")),
+               ,expand=c(0,0))+
   scale_y_continuous(n.breaks = 10)+
   scale_color_manual(labels=c("Domestic", "Transnational"), values = c("#ff6666","#525266"))+
   theme(plot.title = element_text(hjust = 0.5))
 
-
+ggsave("lsla_timeline.jpg", width = 14, height = 7)
 # lsla<-merge.data.table(deals, contracts, by="Deal ID",all.x = TRUE)
