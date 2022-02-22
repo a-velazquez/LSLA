@@ -111,11 +111,13 @@ ggplot(deals_tm[(year(year) > 1990 & year(year) <= 2022)], aes(x=year, y=V1, col
   labs(title="Large Scale Land Acquisitions\n",
        x="\nYear", y="Number of Contracts Signed\n")+
   scale_x_date(date_breaks = "1 year", date_labels = "%Y", 
-               limits = c(as.Date("12-31-1990", "%Y-%m-%d"),as.Date("12-31-2021", "%Y-%m-%d")),
+               limits = c(as.Date("12-31-1990", "%Y-%m-%d"),as.Date("12-31-2021", "%Y-%m-%d"))
                ,expand=c(0,0))+
   scale_y_continuous(n.breaks = 10)+
   scale_color_manual(labels=c("Domestic", "Transnational"), values = c("#ff6666","#525266"))+
   theme(plot.title = element_text(hjust = 0.5))
 
-ggsave("lsla_timeline.jpg", width = 14, height = 7)
+# ,axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=1,margin = margin(t = 0, r = 0, b = 0, l = 0))
+
+ggsave("lsla_timeline.jpg", width = 1200, height = 400, units="mm",scale = 0.3)
 # lsla<-merge.data.table(deals, contracts, by="Deal ID",all.x = TRUE)
