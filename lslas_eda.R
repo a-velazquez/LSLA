@@ -119,5 +119,7 @@ ggplot(deals_tm[(year(year) > 1990 & year(year) <= 2022)], aes(x=year, y=V1, col
 
 # ,axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=1,margin = margin(t = 0, r = 0, b = 0, l = 0))
 
-ggsave("lsla_timeline.jpg", width = 1200, height = 400, units="mm",scale = 0.3)
+# ggsave("lsla_timeline.jpg", width = 1200, height = 400, units="mm",scale = 0.3)
+ggsave("lsla_timeline.pdf")
+
 # lsla<-merge.data.table(deals, contracts, by="Deal ID",all.x = TRUE)
