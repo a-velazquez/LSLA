@@ -3053,8 +3053,8 @@ Involvement ID;Investor ID Downstream;Investor Name Downstream;Investor ID Upstr
 8353;40016;Mayers-Delfs-Agro LLC;5052;Tomas Mayers;Parent company;;;;;;
 8354;40017;Dukra Agro LLC;5053;Johannes Ventsl;Parent company;;;;;;
 8355;40018;Prima Rosa Flowers Limited;5054;Zuri Group Global;Parent company;;;;;;
-8357;40021;Agro-Region Chudniv&Ivky&Lyubar&Khemelnytskyi LLCs;5055;East Capital;Parent company;;;;;;
-8358;40022;Agro-Region Borzna&Kozelets` LLCs;5055;East Capital;Parent company;;;;;;
+8357;40021;Agro-Region Lyubar LLC;5055;East Capital;Parent company;;;;;;
+8358;40022;Agro-Region Kozelets` LLC;5055;East Capital;Parent company;;;;;;
 8360;38655;Agro-Region Boryspil;5055;East Capital;Parent company;;;;;;
 8362;37505;Biodiesel East Africa Ltd.;5056;Unknown (Biodiesel East African Ltd);Parent company;;;;;;
 8363;40023;Unknown (African Safari Wood Lodge CC, Mafwe Traditional Authority);5057;African Safari Wood Lodge CC;Parent company;;;;;;
@@ -3117,8 +3117,8 @@ Involvement ID;Investor ID Downstream;Investor Name Downstream;Investor ID Upstr
 8465;2282;TSB Sugar;40532;RCL Foods Limited;Parent company;;;;;;
 8468;40535;Idavang A/S;227;International Finance Corporation;Parent company;Shares/Equity;20.0;;;;
 8469;40535;Idavang A/S;40534;Jast Holding A/S;Parent company;;;;;;
-8470;40536;Idavang LLC;40533;Idavang-Invest LLC;Parent company;;;;;;
-8471;40536;Idavang LLC;40535;Idavang A/S;Parent company;;;;;;
+8470;40536;Idavang LLC;40533;Idavang-Agro LLC;Parent company;;;;;;
+8471;40536;Idavang LLC;40535;Idavang A/S;Parent company;Shares/Equity;3.0;;;;
 8473;40540;Heilongjiang Agriculture Co. Ltd;40539;Heilongjiang Beidahuang Land Reclamation Group Corporation;Parent company;;;;;;
 8474;40542;JBA Holdings;40541;Jiusan Group;Parent company;;;;;;
 8475;40542;JBA Holdings;40538;Joyvio Group;Parent company;;;;;;
@@ -3558,8 +3558,7 @@ Source 11"
 9272;41288;Unknown (Besana Group);41286;The Besana Group;Parent company;;;;;;
 9277;39474;Salima Sugar Co. Ltd;4709;Aum Sugar Co. Ltd.;Parent company;Shares/Equity;60.0;;;;
 9278;39474;Salima Sugar Co. Ltd;41289;Government of Malawi;Parent company;Shares/Equity;40.0;;;;
-9286;38380;Kayelekera Mine;4384;Government;Parent company;;85.0;;;;
-9287;38380;Kayelekera Mine;3332;Paladin Energy Ltd;Parent company;;85.0;;;;
+9286;38380;Kayelekera Mine;4384;Government;Parent company;;;;;;
 9291;41295;Terneyles OJSC;41300;Natalia Vikhrova;Parent company;Shares/Equity;2.4;;;;
 9292;41295;Terneyles OJSC;41299;Shcherbakov Vladimir Fedorovich;Parent company;Shares/Equity;30.0;;;;
 9293;41295;Terneyles OJSC;41293;Sumitomo Corporation;Parent company;Shares/Equity;45.0;;;;
@@ -3619,7 +3618,7 @@ Source 11"
 9397;36976;Marli Investments Zambia Ltd.;540;Unnamed investor 109;Parent company;;;;;;
 9398;36976;Marli Investments Zambia Ltd.;2302;Unnamed investor;Parent company;;;;;;
 9399;35588;Continental Farmers Group;40505;SALIC UK Ltd;Parent company;;;;;;
-9400;41375;Mara Agriculture Uganda Limited;41374;Mara Group;Parent company;;;;;;
+9400;41375;Eastern Uganda Agriculture Limited;41374;Mara Group;Parent company;;;;;;
 9404;41377;Siberian for mining co.ltd;41376;Siberian Golden Stone;Parent company;;;;;;
 9405;41379;Flora JSC;41327;RFP Group Holding;Parent company;;;;;;
 9409;41167;Mendez Ezcurra, Luis Maria;41031;SACHA RUPASKA SA;Parent company;;;;;;
@@ -3697,7 +3696,7 @@ Source 11"
 9568;40512;Grain Land Ukraine LLC;41400;SALIC Ukraine LLC;Parent company;Shares/Equity;100.0;;;;
 9569;40513;Agro LV Limited LLC;41400;SALIC Ukraine LLC;Parent company;Shares/Equity;100.0;;;;
 9570;41492;Agrovista LLC;41491;Agrovista Limited;Parent company;Shares/Equity;100.0;;;;
-9571;39631;Inter-Contact-Agro LLC;41492;Agrovista LLC;Parent company;Shares/Equity;100.0;;;;
+9571;39631;Petrokorbivske LLC;41492;Agrovista LLC;Parent company;Shares/Equity;100.0;;;;
 9574;39650;Enselco Agro LLC;40585;Jerste S.a.r.l.;Parent company;Shares/Equity;99.99;;;;
 9575;39633;Podillya-Agroservice LLC;39650;Enselco Agro LLC;Parent company;Shares/Equity;100.0;;;;
 9577;39634;PE Kulykivs`ki agrarian investments;35586;Druzhba Nova LLC;Parent company;Shares/Equity;100.0;;;;
@@ -4804,9 +4803,6 @@ Through SN Power Invest Netherlands, a 100% subsidiary of SN Power."
 11507;37484;McLeod Russel Uganda (MRUL);42841;Dilsher Sen;Tertiary investor/lender;Shares/Equity;;;;;
 11511;42842;PT. Cakung Permata Nusa;42843;Astra International;Parent company;;;;;;
 11512;41314;Flamingo Holdings Limites;984;CDC Group plc;Tertiary investor/lender;Shares/Equity;14.0;;;;
-11517;41326;RFP Holding (Cyprus) Limited;41322;Invest AG;Parent company;Shares/Equity;27.0;;;;A consortium of private investors
-11518;41326;RFP Holding (Cyprus) Limited;42272;MHC (Services) Limited;Parent company;Shares/Equity;31.0;;;;A consortium of private investors
-11519;41326;RFP Holding (Cyprus) Limited;41325;Russia-China Investment Fund;Parent company;Shares/Equity;42.0;;;;
 11520;41327;RFP Group Holding;41326;RFP Holding (Cyprus) Limited;Parent company;;;;;;
 11521;41395;Dzheltulak Les LLC;41327;RFP Group Holding;Parent company;;;;;;
 11522;42859;Starbucks Coffee Agronomy Company S.R.L.;42860;Premium Restaurants Of America Premium Restaurants Of America;Parent company;;;;;;
@@ -4942,8 +4938,8 @@ Through SN Power Invest Netherlands, a 100% subsidiary of SN Power."
 11733;41847;Rosiorii Farm;41849;Holde Agri Managment SRL;Parent company;;;;;;
 11734;43031;Agrofirma Vidrodzhennia LLC;43027;BKW Group LLC;Parent company;Shares/Equity;99.0;;;;
 11735;43035;Landfort Dnipro PE;43027;BKW Group LLC;Parent company;Shares/Equity;99.0;;;;
-11736;43054;Zolotaya Niva LLC;43055;Agrico LLC;Parent company;Shares/Equity;;;;;
-11737;43054;Zolotaya Niva LLC;43056;Martinico Beheer I B.V.;Parent company;Shares/Equity;99.0;;;;
+11736;43054;Zolotaya Niva LLC;43055;Agrico LLC;Parent company;Shares/Equity;5.9;;;;
+11737;43054;Zolotaya Niva LLC;43056;Martinico Beheer I B.V.;Parent company;Shares/Equity;63.9;;;;
 11739;43061;Dolgosrochnyie investitsii LLC;43062;WHPA Limited;Parent company;Shares/Equity;100.0;;;;
 11740;43060;Agronova-L LLC;43061;Dolgosrochnyie investitsii LLC;Parent company;Shares/Equity;99.0;;;;
 11741;43063;Agro Vista Tambov LLC;43060;Agronova-L LLC;Parent company;Shares/Equity;100.0;;;;
@@ -5957,3 +5953,29 @@ https://opencorporates.com/companies/gb/10004186"
 13066;38645;Agrokultura Voronezh LLC;43476;Yenisei LLC;Parent company;Shares/Equity;100.0;;;;
 13067;44099;RAO Narovchat LLC;40044;RUSMOLCO LLC;Parent company;Shares/Equity;100.0;;;;
 13068;44191;Unknown (12Tree Morocco);44192;12Tree Finance GmbH;Parent company;;;;;;
+13070;44198;Segezha Group PJSC;3900;Sistema JSFC GDR;Parent company;Shares/Equity;;;;;
+13071;44197;JSC Lendersky LPH;44198;Segezha Group PJSC;Parent company;Shares/Equity;100.0;;;;
+13072;44199;Lesosibirsky LDK No. 1 JSC;44198;Segezha Group PJSC;Parent company;Shares/Equity;100.0;;;;
+13073;44200;Vyatskiy fanernyy kombinat LLC;44198;Segezha Group PJSC;Parent company;Shares/Equity;100.0;;;;
+13074;44201;Mriya Farming Bukovyna LLC;41400;SALIC Ukraine LLC;Parent company;Shares/Equity;100.0;;;;
+13075;44203;Kipelovo Forestry Enterprises JSC;44198;Segezha Group PJSC;Parent company;Shares/Equity;100.0;;;;
+13076;44206;Onezhskiy LDK JSC;44198;Segezha Group PJSC;Parent company;Shares/Equity;100.0;;;;
+13077;44207;Segezhskiy Pulp and Paper Mill JSC;44198;Segezha Group PJSC;Parent company;Shares/Equity;100.0;;;;
+13078;44208;Karelian Wood Company LLC;44198;Segezha Group PJSC;Parent company;Shares/Equity;100.0;;;;
+13079;44209;Russia Forest Products (BVI) Limited;44210;Iida Group Holdings Co., Limited (IIDA);Parent company;Shares/Equity;75.0;;;;
+13081;41326;RFP Holding (Cyprus) Limited;44209;Russia Forest Products (BVI) Limited;Parent company;Shares/Equity;;;;;
+13082;44214;IKEA Industry Tikhvin  LLC;44215;Klipphult Holding AB;Parent company;Shares/Equity;100.0;;;;
+13083;44148;Miratorg-Kursk LLC;43511;APKH Miratorg LLC;Parent company;Shares/Equity;100.0;;;;
+13085;44216;Sergeevskoe LLC;40896;Euroasia Group LLC;Parent company;Shares/Equity;100.0;;;;
+13086;43054;Zolotaya Niva LLC;44217;Gvardiya LLC;Parent company;Shares/Equity;18.0;;;;
+13087;44217;Gvardiya LLC;43056;Martinico Beheer I B.V.;Parent company;Shares/Equity;99.0;;;;
+13090;40533;Idavang-Agro LLC;40535;Idavang A/S;Parent company;Shares/Equity;3.0;;;;
+13091;40533;Idavang-Agro LLC;44224;Rurik A/S;Parent company;Shares/Equity;97.0;;;;
+13092;43479;Volgo-Don Agroinvest LLC;4453;Erneal Limited;Parent company;Shares/Equity;100.0;;;;
+13093;44175;Novotroitskoye LLC;38913;RZ Agro Group;Parent company;Shares/Equity;100.0;;;;
+13094;44240;Agro-Region Borzna LLC;5055;East Capital;Parent company;Shares/Equity;100.0;;;;
+13095;44241;Agro-Region Khmelnytskyi LLC;5055;East Capital;Parent company;Shares/Equity;100.0;;;;
+13098;38380;Kayelekera Mine;44242; Lotus Resources Pty Ltd;Parent company;;;;;;
+13099;38894;Babator Farming Company;44181;Oba Pack Company Limited;Parent company;;;;;;
+13100;43028;PAE Landfort Azov;43027;BKW Group LLC;Parent company;;;;;;
+13101;44246;Chornukhynsʹkyy kray LLC;40757;AGR Invest Holding Ltd;Parent company;Shares/Equity;100.0;;;;

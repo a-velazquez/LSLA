@@ -1,21 +1,15 @@
 Deal ID;Contract number;Contract date;Contract expiration date;Duration of the agreement (in years);Comment on contract
 8;;;;99;long-term land lease of upto 99 years
-11;;2005-04-26;;70;On 12 May 2006, The Cambodian Ministry approved on the submitted master plan
 13;;2009-12-08;;70;
 17;;2008-01-24;;70;
 20;;2009-09-25;;50;"Active Economic Land Concession by Ministry of Agriculture, Forestry and Fisheries
 
 50 year-term plan as per https://opendevelopmentcambodia.net/profiles/economic-land-concessions?feature_id=elc_gdc_116"
-22;;;;99;
 23;;2001-04-20;2071-04-20;70;
 24;;1999-11-15;;70;On active status by Economic Land Concession by th eMinistry of Agriculture, Forestry and Fisheries.
-25;;1998-07-23;2068-07-23;70;According to this article : https://cambodia.ohchr.org/~cambodiaohchr/sites/default/files/Report%20on%20land%20concessions%20for%20economic%20purposes%20in%20Cambodia,%20human%20rights%20perspective%202004.pdf, the company' s contract will expire on July 23, 2068.
 27;;2000-10-26;;70;
-29;;2009-09-25;;70;Active status in Economic Land Concession by the Ministry of Agriculture, Forestry and Fisheries
-30;;2000-09-26;;;
 33;;2008-05-27;;;
 35;;2008-12-08;;70;
-36;;2009-03-18;;70;
 39;;2009-10-12;;70;
 40;;;;99;
 42;;2005-05-18;;50;Active status of Economic Land Concession by the Ministry of Agriculture, Forestry and Fisheries in 2012
@@ -35,27 +29,19 @@ In 2012, On active Economic Land Concession by MAFF"
 57;;2009-07-31;;70;
 67;;2006-08-02;2076;70;
 68;;2006-08-02;;90;according to the Ministry of Agriculture, Forestry and Fisheries, the contract has a duration of 70 years - the contract itself, however, stipulates 90 years
-70;;2008-12-08;;70;
 72;;;2016-04;8;Contract ended
-73;;2008-01-24;;70;
 75;;2009-07-31;;70;
 77;;2009-09-25;;70;
 79;;2009-09-25;;70;
 81;;1996-01-09;;70;
 82;;2006-04-04;;70;
-83;;2009-10-22;;70;
-95;;2008-01-24;;70;
 100;;;;70;
 101;;2006-01-24;;70;
 105;;2007-07-18;;70;
 106;;2006-09-18;;70;MAFF granted for 70-year licenses to Tay Nam and Tay Nam BPM in July 2006, to invest in plantations of cassava, rubber, cashew and the construction of a processing factory.
-108;;2009-09-25;;70;
 109;;2007-11-12;;70;
 112;;2009-04-03;;70;
 117;;2005-12-30;;70;
-129;;2006-05-04;;70;"This agreement lasts seventy years starting from the signing date on-wards. The
-management rights of this concession of land will be granted after this agreement takes
-effect in accordance with the law in force. The renewal of the contract can only be made once the government granted an approval to the company."
 130;;2008-07-04;;70;
 135;;;;50;
 140;;;;2;Izin Lokasi (Location Permit)
@@ -65,8 +51,6 @@ effect in accordance with the law in force. The renewal of the contract can only
 188;100/2006;2006-02-25;;;PT DWK obtained Plantation Operational Licence/IUP through the Regent of Kapuas, No.100/2006, dated 25th February 2006.
 188;377;2006-09-09;;;PT Dwie Warna Karya (PT DWK) has obtained a licence area for oil palm plantations covering an area of 12,500 ha through the Location Permit No. 377 dated 9th September 2006 and extended with No. 772 dated 31st August 2007 located in Kapuas Hulu District, Kapuas Regency, Indonesia.
 188;772;2007-08-31;;;
-202;;;;10;
-212;;2008-12-30;;;
 217;;;;75;
 227;976;2011-09-27;;3;
 234;;2008-05-22;;35;
@@ -79,11 +63,9 @@ the cost of over US$35 million. "" (Champamay, 2008 as cited in Baird, 2009)"
 268;;;;40;
 272;;;;50;
 279;;2004-06-21;;50;
-297;;2008-09;;30;Last September 2008, the Mou was signed granted to the company for 30 years duration of the project.
 307;;;;99;
 311;;2011-06-15;;;
 355;;;;10;
-360;;;;;The land is being acquired on concessions, 20-30 years lease and on direct purchase basis.
 412;MPSA No. 054-96-IX;1996-10-23;2021-10-23;25;
 426;;2007-01-15;;50;"The contract does not specify the amount to be invested; it’s not clear if this is a direct investment or a loan. It states that Fuhua will establish a credit platform company, which implies that participants in this project would be borrowing from Fuhua.
 
@@ -94,14 +76,11 @@ The government agreed to lease land to Chinese agribusinesses in 18 different si
 439;;;;4;
 443;;;;25;
 450;MPSA No. 266-2008-XIIISMR;2008-07-28;2033-07-28;25;
-470;;;;10;
 478;FTAA-001;1994-06-20;2019-06-20;25;"Renewal for FTAA is still pending as on 2020.
 
 [2021] FTAA is already finalized as per Mines and Geosciences Bureau and pending approval from the Secretary of DENR and the President."
-493;;;;;The Seaweed farm is a joint venture agreement between the local government unit and the investor
-519;;;;49;
 542;;;;35;
-544;;;;50;*Granted 50-years concessions in 6 provinces for a total of 349,000 ha of forest land to grow acacia and eucalyptus for their wood mills, that produce wood chips for export.
+544;14104300056 ;2008-02-21;;50;*Granted 50-years concessions in 6 provinces for a total of 349,000 ha of forest land to grow acacia and eucalyptus for their wood mills, that produce wood chips for export.
 548;;2007-11-01;;17;
 556;;2007-01-07;;;
 614;;;;49;
@@ -132,9 +111,7 @@ The government agreed to lease land to Chinese agribusinesses in 18 different si
 865;;;;25;
 883;;2011-03-25;;;
 976;;;;99;
-1015;;;;49;
 1018;;2009-03-18;;99;
-1099;;;;50;
 1101;;;;50;
 1103;;;;50;
 1113;;2003;;99;20-year management contract signed with Sucrerie de Complant du Benin (SUCOBE)
@@ -149,7 +126,6 @@ The contract  was signed by government in 2000 with SOCAPALM."
 1172;;2008-07;;25;
 1173;;2003;;30;Another data resource claims the land was acquired in 2007.
 1184;;;;20;
-1186;;;;30;
 1189;;;;45;
 1194;;;;99;
 1196;;2007;2057;50;
@@ -159,18 +135,14 @@ The contract  was signed by government in 2000 with SOCAPALM."
 1205;;2010-10-25;;50;
 1208;;;;50;
 1215;;;;45;
-1217;;;;25;
-1218;;2010-10-01;2035-09-30;25;Contract expires on 31:09:2035
+1218;;2010-10-01;2035-09-30;25;Contract expires on 30:09:2035
 1221;;2010-04-05;2035-04-01;25;
-1228;;;;50;
 1230;;;;70;
-1242;;2012-01-09;2037-01-09;25;
 1244;;2010-09-29;;50;
 1252;;;;50;
 1274;;2012-08-24;;25;
 1278;;2007-12-18;;;
 1285;;;;30;
-1302;;2010-08-01;;25;
 1303;;2010-04-20;;50;Another source states duration is 25 years.
 1304;;2010-03-01;;50;
 1306;;2010-11-25;;40;
@@ -185,8 +157,6 @@ The contract  was signed by government in 2000 with SOCAPALM."
 1346;;1976-09-23;2026-09-22;50;Lease was signed on December 12, 1983 valid for 50 years starting from 23 September 1976 to 22 September 2026.
 1356;;2018;;25;
 1358;;2010-09-16;;99;
-1359;;;;99;99 year lease for 8015ha with option to extend to 98400ha.
-1361;;;;20;
 1362;;;;20;
 1363;;;;45;
 1376;;;;99;
@@ -195,44 +165,35 @@ The contract  was signed by government in 2000 with SOCAPALM."
 1393;;2008-08-06;2057;40;
 1395;;2008-05-22;2057;50;
 1396;;2010-07-01;;65;The contract is for 65 years until 2075, with an opportunity to extend the contract for a further 33 years until 2108.
-1397;;;;20;
-1412;;;;10;
+1397;;2008;2028;20;
+1412;;2007;;10;The ten-year right of use obtained in 2007 by SMCTR
 1414;;;;50;
 1419;;;;30;
 1428;;;;25;
 1454;;;;30;
 1460;;;;5;
-1464;;;;50;
 1467;;;;50;
 1474;;;;50;
-1478;;;;30;
+1478;;2007-11-06;;30;
 1481;;2006-11-13;;;
-1488;;;;5;
 1498;;;;50;
 1508;;2007;2047;40;
 1545;;2011;;49;
 1570;;;;50;
 1572;;;;50;
 1586;;;;50;
-1634;;;;50;
 1652;;;;50;
-1669;;2008-12-17;;25;
+1669;;2008-12-17;;25;MOU
 1683;;2005;;25;The land was acquired on the basis of a renewable 25-year lease
 1713;;;;50;
-1715;;;;49;
+1715;;2011-07;;49;The agreement, which lasts for 49 year
 1721;;;;40;
 1723;;;;48;
-1725;;2012-08-01;2021-08-01;;The Company obtained in principle ratification of research certificate to prove ownership of benefits from that land for the Company to establish agricultural project on 01/08/2012G, and the initial contract period for the project will be valid for three years, extendable for further seven years.
-1732;;;;50;
 1738;;;;70;
 1742;;;;25;Concord Agriculture signed the lease directly with the Unity State government. The lease also offers “full irrigation rights”.
 1752;;;;32;
-1753;;;;32;
-1754;;;;99;
 1755;;;;32;
 1756;;;;30;
-1757;;2008-09-01;;49;
-1760;;;;32;
 1766;;;;99;
 1782;;;;12;
 1794;;;;10;
@@ -246,7 +207,6 @@ Addax Bioenergy in Sierra Leone (ABSL) concluded three land lease agreements for
 Chogo (Farm 854) and Mapanda (Farm 837) issued 8 March 2004
 Title deeds for the other areas are expected in financial year 2019/20"
 1854;;;;98;
-1862;;;;99;
 1872;;2008-07-01;;99;
 1889;;;;99;
 1895;;2011-10-19;;99;
@@ -257,27 +217,24 @@ Title deeds for the other areas are expected in financial year 2019/20"
 1976;;;;99;
 1978;;;;30;
 1984;;;;3;
-1999;;;;25;
-2006;;;;25;
+1999;;2009;;25;
+2006;;2010;;25;
 2009;;;;20;
 2010;;;;20;
-2017;;;;99;
-2050;;;;99;
+2017;;;;99;Renewable 99 year lease
+2050;;2009;;99;
 2053;;;;99;
 2198;;;;30;Another article states 50 years.
 2199;;;;55;
 2237;;2008-06-09;;25;Renewable for another 25 years
 2241;;;;50;In 2 periods of 25 years
 2249;;;;20;
-2253;;;;99;
-2254;;;;99;
 2271;;;;50;
 2283;;;;25;
-2293;;;;30;
+2293;;2010;;30;
 2309;;2010;;99;
 2337;;;;30;renewable lease
 2342;;;;30;renewable
-2362;;;;98;
 2363;;;;99;
 2371;;2011-03-01;;50;Four concessions: 2011/2012/2013/2014. The initial lease is renewable for a term of 25 years
 2385;;2009-08;;25;authorized for a period of 25 (twenty-five) years renewable for equal periods 200of 10 (ten) years under conditions to be set at each renewal period.
@@ -287,7 +244,6 @@ Title deeds for the other areas are expected in financial year 2019/20"
 3008;;2003-04;2033-04;30;
 3020;;;;50;
 3022;;;;50;ProCana was looking at a 50 year lease. MAI had a 50 year DUATs.
-3029;;;;49;
 3030;;;;5;
 3041;;;;50;
 3053;;;;9;
@@ -332,8 +288,6 @@ http://www.cmc.gov.co:8080/CmcFrontEnd/consulta/index.cmc"
 3128;;;;50;
 3129;;2006-01-31;;;
 3132;;2004-10-01;;;
-3161;;;;99;
-3164;;;;99;
 3169;;2012-10-01;;70;
 3170;;;;30;
 3175;;;;25;
@@ -353,7 +307,6 @@ http://www.cmc.gov.co:8080/CmcFrontEnd/consulta/index.cmc"
 3341;;;;50;
 3342;;;;50;
 3353;23;;;;Special Mining Lease No 23 measuring 1,661 hectares is located within the Kwale Prospecting License PL/2018/0119
-3361;;;;99;
 3370;395/2009;2009-11-20;;;Location  Permit:  Licence  area  for  oil  palm plantations covering an area of 17,500 ha through the Regent Decree of Sanggau No: 395, 2009.Plantation  Operational  License (IUP)  through  the Regent  Decree  of  Sanggau  No.277  dated  7th  July 2010
 3378;;;;50;
 3379;;2005-07-26;;50;
@@ -368,15 +321,11 @@ http://www.cmc.gov.co:8080/CmcFrontEnd/consulta/index.cmc"
 3404;;2009-05-18;;;Date of allocation by the Ghana Forestry Commission for the first section of 5,002ha
 3404;;2012-11-21;;;Allocation date of Forestry Commission for second concession of 1,536ha
 3407;;2010-04-09;;70;
-3413;;2010-05-05;;70;
-3414;;2010-01-29;;70;
-3419;;2010-05-05;;70;
 3420;;2010-01-29;;70;
 3421;;2011-06-15;;;
 3422;;2011-06-15;;;
 3424;;2011-12-29;;50;2x21 years plus 7 years.
 3425;;2011-09-30;;25;
-3427;;;;49;
 3429;No.30/2010;2010-09-27;;50;a 50-year lease (with an option to renew for a further 21 years)
 3433;;;;50;
 3436;;;;99;
@@ -385,7 +334,6 @@ http://www.cmc.gov.co:8080/CmcFrontEnd/consulta/index.cmc"
 3450;FMC-005;2009-09-17;2034-09-16;25;Also known as Forest Management Contract-K
 3451;FMC-007;2009-09-17;2034-09-16;25;
 3454;;2010-07-21;;3;
-3455;TSC-0009;2010-07-21;2013-07-20;3;
 3456;TSC-0006;2010-07-21;2013-07-20;3;
 3458;;1959-08-01;2029-07-31;70;
 3459;;2011-09-09;;50;The data shows that the contract date was made last September 09, 2011. The June 16, 2011 date was for the Sub-decree reclassifying land use.
@@ -395,15 +343,12 @@ http://www.cmc.gov.co:8080/CmcFrontEnd/consulta/index.cmc"
 3464;;2011-08-17;;50;
 3470;;2010-05-05;;70;
 3472;;2011-01-06;;;
-3474;;2010-11-30;;;
 3475;;2010-01-29;;70;
-3476;;2011-08-17;;;
 3477;;2012-05-01;;5;
 3478;;2011-03-14;;;
 3479;;2010-04-09;;70;As of May 3, 2016, the duration of the agreement in years was 50 years.
 3480;;2007-09;;60;GPGB owns a Plantation through a Concession to develop, manage and maintain 4,565 hectares (11,280 acres) of oil palm for a period of 60 years from Sept 2007 with an option to renew for another 30 years.
 3484;;2011-01-06;;;
-3496;;2011-03-21;;;
 3497;No. 551.31 / 2311 / Disbun- C;2003-10-31;;30;
 3497;HSL No. 143/HGU/BPN/97/A/106;;;;
 3500;;2011-03-11;;;
@@ -411,39 +356,29 @@ http://www.cmc.gov.co:8080/CmcFrontEnd/consulta/index.cmc"
 3503;;2011-01-08;;;
 3505;;2011-09-07;;99;
 3506;81/hgu/bpnri/2005;2005-07-04;2040-09-24;;Expiration of lease (24-09-2040)
-3508;;2010-12-30;;;
 3510;;2010-12-30;;;
-3515;;2011-06-14;;99;
 3518;;;;25;
 3520;;;;25;
-3521;;2012-08-03;;70;
-3522;;2012-08-03;;70;
 3524;;2012-08-03;;70;
 3525;;2011-07-06;;;
-3526;;2011-11-08;;70;
+3526;;2019-02-07;;70;No information
 3527;;2011-10-05;;;
 3531;;2011-02-09;;;
 3532;;2012-04-18;;90;
 3533;;2011-07-06;;;
 3534;;2011-07-06;;70;
-3535;;2012-05-18;;;
 3538;;2010-09-02;2040-09-02;30;some data sources indicate the lease term is for 33 years
-3541;;;;30;
 3552;;;;5;
 3553;;2012-02-24;;;
 3554;;2011-05-30;;;
-3558;213.460.42/bpn;2005-02-28;;;
 3559;;1997-03-02;;25;
 3560;IUP No. 525.26/418/VIII/ EK.SDA/2010;2010-08-01;;;IUP No. 525.26/418/VIII/ EK.SDA/2010, Agustus 2010, covers an area of11.803,95 ha
 3560;IUP  No. 525.26/272/VI/EK-SDA/2010;2010-06-01;;;IUP for Additional Area No.525.26/272/VI/EK-SDA/2010 covers an area 4.132,5 ha
-3562;844.460.42/bpn;2004-12-27;;;
-3563;;2010-09-24;;99;Notice of Direct Grant says that the grant as a Special Agriculture and Business Lease to for instance, Tosigiba or to NEWIL is for 99 years but the land investigation report says that the customary landowners only are willing to free up their land for SABL purposes for only 25 years and not 99 years.
 3565;;2011-07-22;;99;
 3566;;2010-01-08;;;
 3567;SK Bupati  SintangNo.445;2008-06-01;;;
 3568;HGU 164/hgu/bpn ri/2014;2014;;;
 3569;SK Kepala BPN No.159/HGU/BPN RI/2014;2014-01-01;;;
-3570;;2010-01-29;;;
 3571;;2010-01-29;;50;
 3572;sk 624/menhut-vi/2009;2009-01-01;;;
 3572;SK -648 / Men - HUT - II / 2011;2011-11-11;;;
@@ -452,7 +387,6 @@ http://www.cmc.gov.co:8080/CmcFrontEnd/consulta/index.cmc"
 3586;;2006-12-27;2105-12-27;99;with option to extend to another 99 years once the initial 99 years has lapsed
 3587;;;;99;
 3590;;2006-07-20;;99;
-3591;;2006-09-22;;50;
 3592;;2007-02-15;;99;
 3594;;2007-02-19;;99;SABL recommended for revocation in 2014
 3597;;;;;The license for a company engaged in oil palm plantations is only valid for three years, starting from 2008 to 2011. So, this year the company has had to extend the permit because it has entered the third year since the issuance of the permit. (July 2011)
@@ -474,18 +408,15 @@ Ijin Usaha Perkebunan/IUP (Plantation Operational Permit) No. 503/50/SK-DISBUN K
 3618;HGU No. 26.11.00.00.4.00009;;;;
 3619;;2007-10-16;;99;Special Agriculture and Business License (SABL)
 3620;;2007-10-17;;99;Special Agriculture and Business License (SABL)
-3621;;2007-10-16;;99;
 3622;;2007-10-17;;99;
 3625;;2005-05-24;;30;
 3626;;2008-01-09;;99;SPECIAL AGRICULTURE AND BUSINESS LEASE
 3627;;2008-03-18;;99;A 99 year Special Agriculture Business Lease was granted to the company on 18 March 2008. Notice of Direct Grant was published in the National Gazette number G45 on Tuesday 18 March 2008, the same day. Lease is over land described as portion 104C, Milinch of Part Megigi South East and Part Dagi North East, Fourmil of Talasea, with a land area of 231.2 hectares.
 3627;;2008-04-02;;99;"Second SABL was granted to Akima Oil Palm Limited on 2 April 2008. Notice of Direct Grant was published in Gazette G54 on Monday, 7 April 2007. It is for land described as Portion 2628C, Milinch of Megigi South East, Fourmil of Talasea; area 345.75 hectares."
-3639;;;2041-05-15;35;35 years lease expiring on 15.05.2041
 3640;;2015;2045-02-18;35;
 3641;;;2029-12-31;35;
 3642;350/E5.719/09.1996;1996-09-13;2040-07-13;35;
 3642;503/480/Eko.TU.P/XII/2006;2006-12-19;;35;
-3643;;2005-12-29;2053-10-18;35;
 3644;38/HGU/BPN RI/2011;2011-07-25;2041-10-15;30;expiration of lease at October 15, 2041 but GFW indicates 2046-07-25 as expiration
 3645;;;;;Pending tenure as per  TSH Resources Berhad Annual Report ‘09
 3646;;2010-01-01;2048-10-23;35;"Hak Guna Usaha (Right of Cultivation) for 7,170 hectares; some sources say that the concession was awarded in 2010 but the 2019 Annual Report of TSH indicates that there is a 35-year lease on the area expiring on 2048, which means the concession might have actually been awarded in 2013"
@@ -496,14 +427,11 @@ Ijin Usaha Perkebunan/IUP (Plantation Operational Permit) No. 503/50/SK-DISBUN K
 3655;;2008-07-14;;99;General Manager of BOPPL Kelvin Tan Keh Feng said when the agreement was signed in 2010, the company promised to clear the land, plant oil palm and build amenities. He also announced that in addition to planting oil palm, the company would also build sawmills, veneer processing plants, palm oil mills, refinery, Pelletizing Plant and Biomass Power Plants as downstream projects.
 3656;;2008-08-14;;99;
 3657;;2008-08-14;;99;
-3659;;2008-09-25;;99;
 3661;;;;3;
 3662;;;;3;
-3664;;2009-02-18;;99;
 3670;;;;25;
 3676;;2009-12-28;;25;
 3679;;2009-04-02;;99;The grant is dated 2nd April 2009 and it was gazette on 1st April 2009 through National Gazette Issue No G58 of 2009.
-3680;;2009-04-28;;99;Special Agriculture and Business Lease (SABL)
 3681;;2009-10-30;;70;
 3682;;2009-10-30;;70;SABL recommended for suspension last June 2013.
 3683;;2009-10-30;;70;Recommended the lease is amended to 40 years and a developer with agricultural skills be engaged.
@@ -517,7 +445,6 @@ Goldwell Resource Co. (PNG) Limited entered into a sublease agreement that was e
 3709;;2010-10-15;;99;Special Agriculture and Business Lease (SABL) was granted to Wammy Limited, which then granted a sublease over the entire SABL (Portion 27C) to Global Elite Limited for sixty (60) years. It was approved by Mr Pepi Kimas for purposes of Section 128 and 129 of the Land Act 1996 and registered with the DLPP on 29th October 2010.
 3711;;2011-03-14;;99;Special Agriculture and Business Lease (SABL) granted in 2011 was recommended to be revoked by the Commission of Inquiry in 2013.
 3715;49IKPTS/BPM-PTP/201 I;2011-07-18;;4;Izin Lokasi (Location Permit) for oil palm and rubber
-3719;;2010-01-01;2110-04-01;99;a 99-year State Lease over 5,992 ha in the town/Fourmil of Tufi, Section/Milinch Murua in Oro Province, expiring on 6 April 2110 (“Lot A”)
 3720;;2012-08-08;2061-08-08;49;"a 49-year sublease over 21,520 ha of land held under a Special Agricultural & Business Lease (“SABL”) in the town/Fourmil of Tufi in Northern Province, expiring on 8 August 2061 (“Lot B”)
 
 
@@ -533,7 +460,8 @@ Province, expiring on 8 August 2061 (“Lot C”)"
 3747;;;;25;
 3765;;2004;2029;25;The land for the pineapple plantation was registered and leased for 25 years in 2004 instead of the usual 50 years
 3766;;;;49;
-3768;;;;50;
+3768;;;;50;"The project is a 30-year lease of 1,000 hectares farm land granted to GADCO to develop rice farm.
+"
 3770;;2009-01-11;;50;There is an option of renewal for a further period of 25 years
 3771;;;;50;
 3772;;2012-12-01;;50;
@@ -543,7 +471,6 @@ operating on (pending the renewal of the leases) has been obtained.
 2. Subsequently the chiefs/landowners have signed an Memorandum of Understanding (MOU) with
 NGL indicating their preparedness to renew all the expired leases for the company whilst NGL also
 fulfils its part of the MOU"
-3777;;;;99;
 3778;;;;50;
 3783;;;;99;
 3784;;;;25;
@@ -553,16 +480,12 @@ Carbon Rights Agreement signed on March 14, 2011 between ERA Ecosystem Restorati
 Forest Conservation Concession Contract signed on July 30, 2011 by ERA-Congo and the Ministry of Environment representatives, which allocates the conceded lands to ERA-Congo, and defines ERA-Congo’s social, environmental and management obligations.
 This contract is effect for 25 years and applies to the 299,640ha project area. After this period, the contract may be renewed on the terms contained in Article 8 of the Concession Contract. The 25-year contract will be renewed to complete the 30-year project crediting period."
 3787;;2010-11-02;;60;
-3791;;;;20;
-3792;;;;20;
 3795;;2012-06-08;;25;25 years from date of adoption of the management plan
 3799;;2008-05-12;;40;On May 22, 2007, Yunnan United Power Development Co., Ltd. and Myanmar Ministry of Electric Power jointly established Shweli I Hydropower Co., with Yunnan United Power Development Co., Ltd. holding 80% of the shares, while the Myanmar Ministry of Electric Power holding 20% of the shares. With the approval of the Myanmar government, Shweli I Hydropower Plant was developed in BOT (build-operation-transfer) manner. In accordance with the Joint Venture Agreement, Myanmar can use 15% of the electricity generated from the power station for free. The validity of the franchise right is 40 years.
 3803;;2008-08-21;;;
 3805;;;;50;
-3815;;2012-07-12;;30;
-3824;;2012-01-25;;25;
-3826;;2012-06-25;;25;
-3832;;2012-06-25;;25;
+3832;;2012-06-25;2037-06-25;25;" The land lease agreement is made for period of 25 years but can be renewed for another additional year mutually agreed between the parties.
+"
 3835;;2011-05-05;2036-05-08;25;
 3843;;;;50;Certain plantation lands in Cameroon were given land use rights by the State of Cameroon in 1996 for a period of 50 years plus 50 years, renewable at a nominal value to the Group. With the Group’s continuing investment in replanting and extension on the plantation land, the Group is of the view that it is not likely that the land use rights will not be renewed at the expiring of its current term
 3843;decret No 2012/099;2012-03-12;;;Extension of plantation
@@ -577,6 +500,7 @@ This contract is effect for 25 years and applies to the 299,640ha project area. 
 3901;FMC-004;2009-09-16;2034-09-16;25;
 3907;;2010-01-26;;30;
 3911;;;;50;
+3911;;;;40;
 3914;;;;50;
 3915;;;;25;
 3920;No. 595.1/225/HK-2012;2012-10-01;;;
@@ -590,18 +514,17 @@ This contract is effect for 25 years and applies to the 299,640ha project area. 
 3972;;2011-11-01;;;
 3986;;;;99;The Sudanese government stipulated a 99-year renewable lease for 87,200 ha of land.
 3993;;2009-06-24;;30;
+4013;;;;50;In Nambak the Sino-Lao Rubber Development Company was granted a 50-year concession in 2004, arriving in Namai village in 2006 to inform villagers and to start converting the leased upland.
+4013;;;;50;In Nambak the Sino-Lao Rubber Development Company was granted a 50-year concession in 2004, arriving in Namai village in 2006 to inform villagers and to start converting the leased upland.
 4015;;2006-03-29;;30;The contract is valid for 30 years with an option for extension, which is unspecified in time.
 4016;;2005-07-01;;;
 4017;;2006-08-01;;40;
 4019;;2006-08-01;;30;
-4029;;;;;source says no contracts
-4031;;;;40;
 4059;;2009-06-03;;25;
 4061;;;;99;The company website states a 99-year lease.
 4063;;;;;"Planted Area - 2616 ha
 Harvest Cycle - 10 years
 Harvest - 2022"
-4083;;;;25;
 4102;;;;25;
 4152;;2013-02-07;;;
 4163;;;;;As at 31 December 2007, the Group’s land use rights covering a total land area of 60,634 hectares represents HGU. The legal terms of the existing land rights of the Group expire on various dates between 2020 and 2035. Land use rights represent the cost of land use rights owned by the Group and are amortised on a straight line basis over their terms of 35 years. The terms can be extended for a period of 25 years subject to agreement with the Government of Indonesia and payments of premium.
@@ -614,40 +537,35 @@ Harvest - 2022"
 4295;;2013-09-22;;;
 4305;;;;99;
 4323;;;;30;
-4327;;;;15;
-4330;;;;99;
+4327;ML152;2007;2022;15;Mining Licence- ML 152
 4341;;2012;;50;"""The lease is for 50yrs from 2012. However, the registration remains incomplete due to the litigations."" (from interview with investor by CLPI)"
 4364;;;;30;
 4368;;;;25;
 4374;;2009-01-14;;;
-4380;;;;90;
 4383;;;;15;
 4384;;;;50;
 4403;;;;99;
 4422;;2008-10-08;;70;
 4423;;2012-03-09;;5;
-4426;;2011-01-01;;;
 4428;;2011-02-22;;;
 4432;;;;25;
 4434;;;;25;
-4439;;2010-12-07;;;
 4445;;2012-01-26;;;
 4447;;2010-05-06;;;
-4453;;2012-06-08;;;
 4454;;2011-05-30;;70;
 4464;;;;25;
 4468;;2008-01-18;;35;
 4470;;;2060-01-01;;
 4483;;;;49;
 4485;;;;20;
-4496;;;;40;
+4496;7314;2009-06-11;;40;
 4514;;2013;2038;25;
 4519;;;;50;
 4520;;;;25;
 4521;EDSR17448;2013-06-11;;;Certificate of Occupancy No.EDSR17448, this certify that PRESCO Plc about land 14,436.823 hectares for Agriculture purpose only. Issued on June 11, 2013 by Governor of Edo State of Nigeria.
 4521;;;;;Additional land acquired in 2016. No contract details available.
 4540;;;;25;
-4545;;;;49;
+4545; N 401-рп;2008-07-23;2030-12-22;22;The company has at least one contract signed with the State (this contract sized 271113 ha)
 4555;;2006-03-17;2106-03-16;99;Original lease contract signed in 2006, taken over by Okomu Palm Oil in 2013
 4556;;2002-01-15;;;
 4557;97;2010-09-01;;8;
@@ -677,16 +595,13 @@ part of the adjustments when a new mining law was promulgated in Mongolia. Cover
 4596;;;;15;
 4602;;2005-07-26;;25;
 4603;;2016;;49;long-term (49 year, renewable to 99 year) agriculture lease (Bail Emphyteotique signed between the Director General of Olam Gabon, the President of Republic of Gabon and Minister of Town Planning and Housing (Ministre de l’Urbanisme et du Logement)
-4617;;;;;Investor is requesting 99 years but state is only offering 25 years.
 4619;;2013;;;
 4692;MV-017471A;2014-06-02;2044-06-02;30;
 4713;;;;99;
 4727;;;;99;
 4734;;;;10;
-4749;;;;49;
 4750;;;;49;
 4752;;;;49;
-4756;;;;49;
 4760;;;;5;
 4763;;;;;KML  is  the  holder  of  five  Large-scale  Mining  Licences.    15868-HQ-LML  covers  the  Sentinel  deposit, processing plant and supporting infrastructure, whilst 15869-HQ-LML covers the Enterprise deposit.  15870-HQ-LML, 15871-HQ-LML and 15872-HQ-LML cover exploration areas, sites for Project infrastructure and buffer zones to prevent encroachment of local settlements
 4764;;;;20;
@@ -749,7 +664,7 @@ part of the adjustments when a new mining law was promulgated in Mongolia. Cover
 5129;;;;25;
 5130;;;;5;
 5133;;;;99;
-5139;;;;55;
+5139;;2007-12;;55;
 5169;;2010-12-01;;50;
 5170;;2014-09-01;;;
 5173;;2015-06-25;;30;
@@ -763,16 +678,14 @@ part of the adjustments when a new mining law was promulgated in Mongolia. Cover
 5189;;;;5;
 5190;;;;4;
 5194;;;;50;
-5196;;;;50;
-5197;;;;70;
+5195;676;2007-06-04;;;"Vsip-Bac Ninh Industrial Park was established according to Decision No. 676/TTg-CN of the Prime Minister dated June 4, 2007 with a total planning area of: 700 ha, of which the industrial park area is 500 ha and the urban area is 200 ha.
+See: https://iipvietnam.com/khu-cong-nghiep-vsip-bac-ninh-915212.html
+"
+5196;2122;;2008-12;50;see: https://vsip.haiphong.vn/tin-tuc/khu-cong-nghiep-do-thi-vsip-hai-phong-la-du-an-quan-trong-cua-huyen-thuy-nguyen-va-thanh-pho-hai-phong
+5197;;2015-04-03;;70;"Date of PM's Decision of the IP's establishment.
+See: https://kland.vn/IndustrialPark/khu-cong-nghiep-vsip-nghe-an.html"
 5201;;;;48;*In Oct 2011, Trouong Thanh Oji Plantation Company Limited was established with a 49% stake in Oji Paper and a 51% stake in TTF. The new company will have a plantable area of 17,000 ha and a project period of 48 years.
 5203;MV-00016971;2011-12-28;2041-12-28;30;
-5207;MV-00009515;2005-03-30;2035-03-30;30;
-5208;MV-00016679;2010-10-08;2040-10-08;30;
-5209;MV-00015032;2009-07-28;2039-07-28;30;
-5210;MV-00015033;2009-07-28;2039-07-28;30;
-5211;MV-00015077;2009-08-20;2039-08-20;30;
-5212;MV-00016871;2011-07-06;2041-07-06;30;
 5214;009/11;2011-08-04;2036-08-03;25;
 5215;018/11;2011-10-24;2036-10-23;25;Another data source states contract expires on 23/10/2036
 5219;056/14;2014-07-02;2039-07-01;25;
@@ -786,21 +699,22 @@ part of the adjustments when a new mining law was promulgated in Mongolia. Cover
 5231;063/14;2014-07-10;2039-08-09;25;
 5232;065/14;2014-07-10;;25;
 5233;061/14;2014-07-10;2039-08-09;25;
-5234;060/14;2014-07-10;2039-08-09;25;Assigned to Forabola by Order n°015/15.
 5235;054/14;2014-05-15;2039-05-14;25;054/14
 5236;062/14;2014-07-10;2039-08-09;25;
 5237;004/20;2020-01-14;2045-02-05;25;Previously contract 033/11 allocated to Sicobois
 5238;034/11;2011-10-24;2036-10-23;25;
-5239;036/11;2011-10-24;2036-10-23;25;The contract was amended on 13/12/2011. Assigned to Forabola by Order n°015/15.
 5240;037/11;2011-10-24;2036-10-23;25;
 5241;003/20;2020-01-14;2045-02-05;25;Previously contract 051/14 by Sicobois
 5242;052b/14;2014-05-21;2039-05-14;25;052b/14
 5243;053/14;2014-05-15;2039-05-14;25;Assigned to Siforco by Order No. 019/14. Ceased to Booming Group in 2017.
 5244;007/20;2020-01-14;2045-02-05;25;Previously 057/14 held by Forabola.
-5246;;;;50;
+5246;1972;2016-09-16;;50;See: https://giadinhvaphapluat.vn/kcn-dv-dam-nha-mac-o-quang-ninh-mot-du-an-nhieu-tiem-nang-p70064.html
 5247;058/14;2014-07-10;;25;Assigned to Forabola by Order n°015/15.
 5248;059/14;2014-07-10;2039-08-09;25;Previously CFT
+5250;3742;2004-10-22;2053;50;
 5252;;;;;Decision No. 3976 / QD-UBND dated August 13, 2015 of the City People's Committee  https://thoibaonganhang.vn/khan-truong-hoan-chinh-de-an-thanh-lap-khu-cong-nghe-cao-sinh-hoc-ha-noi-38410.html
+5258;3283;2007-11-09;;;See: https://english.vinhphuc.gov.vn/ct/cms/thongtingioithieu/Lists/industrialclusters/View_Detail.aspx?ItemID=57
+5264;1131;2008-10-06;;;Decision No.1345/CP-CN
 5278;;;;25;
 5316;;;;99;
 5342;ML01/2019;2019-05-23;2044-05-22;25;Initially awarded in 2012.
@@ -824,9 +738,9 @@ Under the judicial decision this contract was recognised as unvalid  - 2017-08-1
 5415;;2008-12-23;;50;
 5417;;;;30;
 5421;235;2001-06-25;;20;
+5426;Decision No. 1928 / QD-UBND;2012-08-02;;;IZ - Hai Ha Port: Adjusting the General Planning of IZ - Hai Ha Port was approved in Decision No. 236 / QD-UBND dated February 6, 2012. The detailed planning of 1/2000 industrial zone-Hai Ha seaport was approved by the Provincial People's Committee in Decision No. 1928 / QD-UBND dated August 2, 2012. The planned area is 4,988 ha.
 5428;;;;31;
 5434;MV-017387A;2013-09-27;2043-09-27;30;
-5437;MV-00020042;2015-11-10;2045-11-10;30;
 5438;MV-00013409;2008-03-24;2038-03-24;30;Initial exploration activities at Golden Hill began in 2002, Bayan Airag receiving a gold and copper mine operation license from the Mineral Resources and Petroleum Regulatory Authority with a 30-year term
 5439;;2009-01-09;2034-01-18;25;
 5445;;2010-04-23;;3;
@@ -840,19 +754,20 @@ Under the judicial decision this contract was recognised as unvalid  - 2017-08-1
 5458;;2014-09-20;;25;
 5465;;;;40;
 5472;537;2009-04-28;;;
-5477;;2017-03-24;;40;
+5477;n°03/CD/CM.;2017-03-24;;40; farm over a 40-year period
 5491;;;;10;
-5492;;;;99;
 5496;;;;50;
-5511;1144;2010-04-22;;;
+5511;1144;2010-04-22;2050-04-22;;"Document No. 1607 / TTg-KTN dated September 9, 2009 on supplementing planning of industrial zones in Quang Ninh province;
+Document No. 1607 / TTg-KTN dated September 9, 2009 on supplementing planning of industrial zones in Quang Ninh province under Decision No. 1107 / QD-TTg dated August 21, 2006 of the Prime Minister on the list of industrial parks expected to be prioritized for new establishment by 2015 and orientations to 2020;
+
+See: https://vnire.com/phuong-nam-industrial-park-iz/"
 5519;;2012-08-17;2019-08-17;7;Sublease agreement.
 5520;;;;20;
 5559;;2013;;99;
 5567;;;;2019;
 5568;;;;30;
-5590;;;;60;
 5605;;;;49;
-5644;;2017-09-14;;50;
+5644;;2017-09-14;;50;50-year emphyteutic lease contract
 5671;;2002-03-14;2026-03-13;25;According to reports MNG has been operating on the MDA that was signed between the government of former President Charles Taylor and AMLib in 2000. Residents are calling for the contracts to ne reviewed to meet with the present reality.
 5698;;2013-12;;;Goulagou I, Goulagou II and Rambo exploitation permits granted in December 2013. Kao and Nami exploitation permit received in Sept 2014.
 5699;;2012-08-01;2022-08-01;10;The Agbaou Exploitation Permit (permit no. 37) covers an area of 334km2, and was granted to Etruscan Resources Cote d’Ivoire SARL (“ERCI”) by Decree no. 2012-766 on August 1, 2012 and is valid for 10 years with renewals available based on remaining mine life.
@@ -861,12 +776,7 @@ Under the judicial decision this contract was recognised as unvalid  - 2017-08-1
 5702;;2007-03-20;;10;
 5703;;;2027;20;
 5705;;2008;;10;https://wikileaks.org/plusd/cables/08OUAGADOUGOU602_a.html
-5706;;;;10;
-5707;;;;10;
-5708;;2014-11-18;;25;
 5709;;2010-12-16;2035-12-15;25;
-5710;;2003-04-11;2028-04-10;25;
-5711;;2012-07-27;2014-07-26;2;This is the 3rd renewal of its research permit and research permits are valid just for 2 year.
 5716;15/32/MME/SG;2015-08-03;;10;
 5729;;2006-10-19;2016-11-11;10;"Information is from judicial decision. 
 Former land owner - State.
@@ -875,32 +785,33 @@ Monetary valuation of this land plot = 378   312, 91 hrn"
 5815;;;;30;
 5820;;;;50;
 5831;MV-00017666;2014-11-06;2044-11-06;30;
-5832;MV-015635;2010-08-11;2040-08-11;30;
-5833;MV-00015331;2009-12-04;2039-12-04;30;
+5842;№ 041075700003;2010-04-20;2027;;Contract with the district state administration. Land plot sized  108,9579ha (cadastral number - 6823083800:02:006:0088) 
+5842;№ 041075700001;2010-04-20;2027;;Contract with the district state administration. Land plot sized 57,8571 ha (cadastral number - 6823083800:02:009:0002)
+5842;№ 041075700002;2010-04-20;2027;;Contract with the district state administration. Land plot sized 46,3355 ha (cadastral number - 6823083800:03:002:0002)
+5842;"№ 041075700006;";2010-04-20;2027;;Contract with the district state administration. Land plot sized 35,04 ha
+5842;№ 041075700005;2010-04-20;2027;;Contract with the district state administration. Land plot sized 74,0600 ha (cadastral number -6823085800:06:019:0010)
 5850;;;;30;
-5851;MV-00011888;2006-08-14;2036-08-14;30;
-5852;MV-00011887;2006-08-14;2036-08-14;30;
+5858;040701300323;2007-06-22;2027-06-22;;Land plot sized 8.78 ha. The contact is the subject of land conflict. Currently failed.
 5862;;2015-06-01;;30;
 5869;;2006;;;
 5875;;2016-12-13;;;
 5879;;2010-06-03;;;
 5895;;;;99;
 5908;;;;15;
-5913;;;;30;
 5942;;2017-02-07;;;"The Contract was signed between Company and Local government about lease of land: size - 4,6937 ha;  cadastral number №6320410100:00:006:0024; purpose use of this land is industrial, transport, communications, energy, defense and other land. (source - issued decision of local government)"
 5947;;2009-09-17;2034-09-16;25;
 5948;;2011-10-26;;6;
 5956;;;;40;The KSG  and TTCL signed joint venture and lease agreements for 815 acres with a concession period of 40 years.
 5960;;2007-12-19;;;
-5976;;;;30;
 6012;MV-00017405;2013-10-17;2043-10-17;30;
 6021;;;;5;
 6038;;2012-03-16;;20;
 6040;;2000-08-11;;15;
 6071;1;2017-03-01;;;
-6163;;2011-05-19;;;
-6203;;2011-03-01;;50;
+6197;;;;75;
 6245;;2004-07-20;;50;The provincial governments of Champasak and Salavan approved a 50-year rubber concession for the Dak Lak Rubber Company to invest US$32 million in developing 10,000 hectares of rubber, as well as thousands of hectares of coffee, cocoa and cashew trees (Thanh Nien News 2007). Final provincial approval for implementation was obtained in January 2005.
+6246;;;;50;
+6249;;;;40;
 6276;Permit 4578;2018-05;;30;Lemur said  it had concluded a 30-year concession agreement with the Madagascan government. Permit 4578 consists of 4 blocks and is a full mining license.
 6316;;2011-01-08;;;
 6339;;2010-01-08;;;
@@ -937,14 +848,13 @@ Monetary valuation of this land plot = 378   312, 91 hrn"
 6598;;2012-10-19;;;Build-operate-transfer (BOT)
 6602;;2006-12-01;;25;BPP, a wholly-owned subsidiary of Banpu Public Company (Banpu), entered a Heads of Agreement (project development agreement) with the Government of Lao PDR (GoL) for the Hongsa power project in December 2006.
 6606;;;;30;project adopted the BOT  (build-own-transfer) mode, with a construction period of four years, a franchised operating period of 28 years
+6613;931;2020-06-30;;;for the period until the state registration of the heir's ownership of the land plot or until the entry into force of a court decision declaring the inheritance deceased (contract for state-owned land in Boremel village)
 6620;;1960;;;Conveyance into perpetuity
 6633;(WC)30/5/1/2/2/163 MR;;;;
 6668;;2010-03-24;2017-03-24;7;"Cadastral number - 5923882300:09:001:0007; Size - 35,3158 ha; now there is the judicial process about updating the duration of the agreement for the next seven years."
 6677;;;;25;Most of the agreements concluded for 25 years
 6686;License 184;;;;
-6687;License 185;;;;
 6688;License 183;;;;
-6689;License 187;;;;
 6690;License 186;;;;
 6693;;2019;2023;5;Project Duration: 2019 –2023 (5 years)
 6694;MPSA No. 290-2009-VIII;2009-09-28;2034-09-28;25;
@@ -1064,7 +974,6 @@ Teritory -  Avgustivskyi Village Counsil Koziv District Ternopil Region"
 6796;;2010-08-02;2020-08-02;10;Size - 5,85 Teritory - Pidvolochysk District, Ternopil Region
 6796;;2009-01-03;2019-01-02;10;"Size - 2ha  reclaimed  land
 Teritory - Pidvolochysk District, Ternopil Region"
-6839;;2017-11-10;;;
 6846;;2006-01-04;2016-01-04;10;More information  can be obtained from judicial decisions  in the attached documents.
 6846;;2007-11-30;2017-11-30;10;More information  can be obtained from judicial decisions  in the attached documents.
 6846;;2010-08-10;2020-08-10;10;More information  can be obtained from judicial decisions  in the attached documents.
@@ -1093,7 +1002,7 @@ See judicial decision about elimination of the Contract."
 7078;1469/2012;2012-11-23;2037-01-01;25;The contract was canceled ahead of schedule due to the court decision in 2019 that was initiated consequently of a corruption scandal
 7079;1321/2012;2012-09-14;2037-01-01;25;The contract was canceled ahead of schedule due to the court decision in 2019 that was initiated consequently of a corruption scandal
 7080;1322/2012;2012-12-20;2037-01-01;25;The contract was canceled ahead of schedule due to the court decision in 2019 that was initiated consequently of a corruption scandal
-7081;0089/2009;2009;2058-12-16;49;
+7081;0089/2009;2009-10-21;2058-12-16;49;
 7082;0191/2008;2008;2026-02-14;18;
 7083;0190/2008;2008;2054-04-20;46;
 7084;0197/2008;2008;2031-08-23;23;
@@ -1114,7 +1023,7 @@ to a full mining license"
 7115;0215/2008;2008;2026-03-19;18;
 7116;0216/2008;2008;2031-08-02;23;
 7118;0196/2008;2008;2027-04-09;19;Ulchskoje Region, Khabarowskoje
-7119;0162/2008;2008;2053-07-21;44;
+7119;0162/2008;2008-11-05;2053-07-21;44;
 7120;80010003809918;2012-10-10;;99;
 7121;0213/2008;2008;2026-03-19;18;
 7122;0214/2008;2008;2031-07-27;23;
@@ -1128,18 +1037,18 @@ to a full mining license"
 1. 2026-05-12
 2. 2055-05-12
 3. 2031-05-12"
-7131;0215/2008;2008;2026-12-31;18;Kerbynskoje Forestry, Im. Poliny Osypenko District, Chabarovski Region
+7131;0165/2008;2008-11-05;2026-12-31;18;Kerbynskoje Forestry, Im. Poliny Osypenko District, Chabarovski Region
 7132;2438/2014;2014;2040-01-18;26;
 7133;0209/2008`;2008;2026-11-06;18;
 7134;0207/2008;2008;2028-12-23;20;
 7136;0201/2008;2008;2026-04-03;18;
 7137;0006/2008;2008-09-26;2057;49;
 7140;0005/2008;2008;2057;49;"Bolenskoje Forestry; Duky Forestry; Khabarovskyi Region"
-7141;2199/2008;2014;2054;40;Amgunskoje Forestry, Khabarovskyi Region
-7142;0004/2008;2008;2057;49;
+7141;2199/2008;2014;2040-02-08;36;Amgunskoje Forestry, Khabarovskyi Region
+7142;0004/2008;2008-11-24;2040-08-07;32;
 7143;;2013-11-04;;;
-7144;0014/2008;2008;2057;49;
-7145;0003/2008;2008;2033;25;Solnechnyi District, Charpynskoje Forestry, Khabarovskyi Region
+7144;0014/2008;2008;2057-07-05;49;
+7145;0003/2008;2008;2028-03-19;20;Solnechnyi District, Charpynskoje Forestry, Khabarovskyi Region
 7146;;2019;2026;7;
 7147;8001000093974;2015-10-19;;;
 7149;R1000000341061;;2017-11-24;99;
@@ -1195,7 +1104,6 @@ https://data.opendevelopmentmekong.net/dataset/ae47bf79-72a4-461e-81c7-0e6e59316
 7333;Sub-decree No. 32;2011-02-22;;;Sub-Decree on Determining Management Zone in Nature Protection Area as Sustainable Use Zone: Determining 63 hectares as sustainable use zone in Dorng Peng Multiple Use Area in Chroy Svay commune, Sre Ambel district, Koh Kong province, and granting the land for fisheries farming and participating in coastal mangrove forest conservation to Chan Roth Group company.
 7339;;2011-11-08;;50;
 7341;;2010-01-23;;;
-7349;;2010-11-11;;50;
 7350;;2011-09-22;;50;
 7359;;2003;2031;30;"Possibility of renewal. The contract was revised in December 2015.
 The Ahafo mine operates on three mining leases between the Government of Ghana and Newmont Ghana Gold Ltd."
@@ -1213,24 +1121,15 @@ The Chirano mining lease expired on April 7, 2019 and an application to extend t
 7407;551.31/0584/Disbun.C;2006-03-15;;;
 7413;09-019;2000-10-25;;;
 7414;09-024;2011-12-02;2041-12-02;30;
-7421;;2007-09-07;;70;
 7426;1040;2000-10-12;;;FMU 10-026, concession number 1040, exploitation notice No 2385. FMU number 10.026  attributed to ALPICAM in 2000-10-12 and classified in 2005-01-26
 7427;10-031;2016-05-03;2031-05-02;15;FMU number 10.031 attributed in 2010-10-21 and classified in 2017-01-17. The Cahier de Charges is valid for 15 years from 3 May 2016
+7428;1043;2000-10-23;;;FMU number 10.038 attributed to CAMBOIS in 2000-10-23 but classified in 2010-03-31. Concession number 1043
 7430;10-046;2000-12-15;;;FMU number 10.046  attributed to SCTB Sarl in 2000-12-15 but classified as an FMU in 2017-01-17
 7431;10-062;2000-10-20;;;FMU number 10.062 classified as a FMU in 2004-12-08 and attributed to PANAGIOTIS MARELIS IN 2000-10-20
 7434;;2014-08;;;
-7439;;2012-03-16;;;
 7444;MPSA No. 194-2004-VII;2004-05-22;2029-05-22;25;
 7450;;2011-03-01;;;
-7454;;2011-10-24;;;
-7455;;2010-01-29;;;
-7468;;2011-12-13;;50;
-7471;;;;50;
-7478;;;;50;The Office of the Council of Ministers decided to permit Investment and Development Dai Thanh (Cambodia) J.S.C Ltd to continue procedures in forces over land areas after compensation or cutting non-cultivated land and then re-sign the contracts, and reduce the term of economic land concessions (ELCs) up to 50 years.
-7482;;2008-09-23;;;
 7491;;2008-07-04;;50;*In Cambodia, the company was granted an ELC of 4,162 hectares in Bousra commune in July 2008 for 70 years. Based on the results of the inter-ministerial committee meeting for assessment, measurement and evaluation of the economic land concessions (ELCs) dated on 9 March 2015, the Office of the Council of Ministers decided to permit companies to continue procedures in forces over land areas after compensation and then re-sign the contracts, and to reduce the term of ELCs up to 50 years.
-7492;;2010-12-03;;;
-7493;;2011-05-30;;;
 7500;1048;2000-10-10;;;Classified as a FMU in 2005-01-26. This concession was initially attributed to SIBAF and later handed over to ALPICAM in 2005. Concession number 1048
 7506;172 year 2006;2006-06-14;;;this is number of Permitted Area (Izin Lokasi)
 7506;422 year 2008;2008-11-11;;;this is number of Permitted Area (Izin Lokasi)
@@ -1240,7 +1139,6 @@ The Chirano mining lease expired on April 7, 2019 and an application to extend t
 7589;SK. 1616/Kpts-II/2001;2001-10-31;;;
 7604;sk 47/menhut-ii/2006;2006-03-06;;;First contract signed in 1992 (sk hti 224/Kpts-II/92, 21-2-1992)
 7626;Portant Concession De Baux Emphyteotiques [Convention 0006];2012-11-13;2062-11-12;50;Once renewable for a maximum of 49 years
-7627;;2019;;;
 7628;;2012-11-13;2062-11-12;50;Renewable once for maximum 49 years
 7629;;2015-04-22;2065-04-21;50;Mouila Lot 3 - 23,780ha. Period of 50 years, renewable once
 7629;;2016-09-27;2065-09-26;49;Mouila Lot 3 Extension - 14,530ha. 49 year lease, renewable to 99 year.
@@ -1248,7 +1146,6 @@ The Chirano mining lease expired on April 7, 2019 and an application to extend t
 7657;;2017-04-26;2024-04-26;7;Under the judicial decision.
 7668;;2016-07-01;;10;"Under the judicial decision, the Contract was concluded between natural person and Company 2016-07-01; overall size = 5,3698 ha; cadastral numbers are 4825486300:07:000:0675, 4825486300:01:000:1814, 4825486300:05:000:0641, 4825486300:01:000:1813 in Mykolaivska Region. Under the judicial decision this contract was recognised as unvalid 2018-06-14 (according to the information from decision there was forgery of documents)."
 7668;;2009-01-12;;5;"Under the judicial decision, the contract was concuded between natural person and Company in 2009; overall size = 5,67 hа; cadastral numbers are 4825486300:01:000:0352, 4825486300:07:000:0443 in Mykolaivska Region."
-7672;;2016-11-15;2115-11-15;99;
 7680;;2009-05-15;;;"The contract was concluded (oral agreement) between Company and the Head of local government regarding lease of reserve land without any payments: size 39 ha; this decision was illegal - the norms of land law was violated."
 7680;;2014-06-04;2017-11-02;3;The lease of lang belonging to the State. Size - 30 ha. Lease payment - 5% from monetary valuation of the land.
 7689;;2013-10-09;2018-10-09;5;"Under the judicial decision, the contract was concuded; land plots - 6822181300:03:015:0240, 6822181300:03:015:0241, 6822181300:03:015:0242."
@@ -1261,7 +1158,6 @@ The Chirano mining lease expired on April 7, 2019 and an application to extend t
 7745;;2007-08;2010-04-16;;The decision was issued by the Head of the village council, but without the decision of the session of the Gubnitsky village council and the Order of the Haysyn district state administration. The owner of the land was State, so there was a violation of the law  - abuse of authority by the Head of the village council. Under the judicial decision, this contract was recognized as invalid.
 7745;;2009-05-15;2010-04-16;;There was the decision of the session of the Gubnitsky village council, but without the Order of the Haysyn district state administration. The owner of the land was State, so there was a violation of the law  - abuse of authority by the Head of the village council. Under the judicial decision, this contract was recognized as invalid.
 7750;;2015-01-10;2114-01-10;99;
-7778;;2011-10-01;;99;
 7785;;2016-11-15;2115-11-15;99;
 7786;;2016-08-01;2115-08-01;99;
 7801;"9735C;  9229C;  9228C";2019;2044;25;All the licences are valid until 2044 with the potential to extend for an additional 25 years
@@ -1273,18 +1169,16 @@ The Chirano mining lease expired on April 7, 2019 and an application to extend t
 7827;;2017-12;;25;25 year Mining concession awarded in December 2014 (renewable for a further 25 years). Mining contract approved by the Council of Ministers and signed in December 2017.
 7830;288;;2067-03-30;;Size - 200 415 ha with authorized annual use of wood - 196,4 m3 (maximum duration lease agreement is 49 years)
 7831;289;;2067-03-29;;Size - 412 378 ha with authorized annual use of wood - 303 m3 (maximum duration lease agreement is 49 years)
-7833;290;;2067-03-29;;Size - 12 480 ha with authorized annual use of wood - 18,8 m3 (maximum duration lease agreement is 49 years)
-7834;291;;2067-03-29;;Size - 16 261 ha with authorized annual use of wood - 30,3  m3 (maximum duration lease agreement is 49 years)
-7835;292;;2067-03-29;;Size - 190 827 ha with authorized annual use of wood - 112,9 m3 (maximum duration lease agreement is 49 years)
-7836;39;;2053-11-29;;Size - 56917 ha with annual authorized use of wood 61.5 thousand m3.
+7833;290;2018-03-30;2067-03-29;;Size - 12 480 ha with authorized annual use of wood - 18,8 m3 (maximum duration lease agreement is 49 years)
+7834;291;2018-03-30;2067-03-29;;Size - 16 261 ha with authorized annual use of wood - 30,3  m3 (maximum duration lease agreement is 49 years)
+7835;292;2018-03-30;2067-03-29;;Size - 190 827 ha with authorized annual use of wood - 112,9 m3 (maximum duration lease agreement is 49 years)
+7836;39;2008-09-22;2053-11-29;;Size - 56917 ha with annual authorized use of wood 61.5 thousand m3.
 7837;5967C;2013;;25;
 7845;;;;15;2800 land lease agreements
-7847;;2011-08-22;2036;25;
 7850;MC9132C;2019-02-27;;25;The mining concession be granted for an initial period of 25 years (renewable for subsequent periods of 25 years).
 7851;;2013-12-06;2038-12-06;25;25 years (renewable)
 7852;П-20/2;2008-12-16;2057-12-16;49;"Cadastral numbers - [22:49:010201:1]; [22:49:010201:3]; [22:49:010201:4]; [22:49:010201:5]; [22:49:010201:6]; [22:49:010201:7]; [22:36:120001:381]; [22:36:120002:475]; [22:36:120005:1]; [22:49:120006:1]."
 7853;П-20/3;2008-12-16;2057-12-16;49;"Cadastral numbers - [22:16:010001:1]; [22:16:010002:8]; [22:16:020010:959]."
-7854;8770C;2018-03;;;
 7855;;;;27;
 7857;П-20/4;2008-12-16;2057-12-16;49;There were 8 additional agreements to the Contract.
 7859;П-20/1;2008-12-16;2057-12-16;49;There were 10 additional agreements to the Contract.
@@ -1310,9 +1204,8 @@ The Chirano mining lease expired on April 7, 2019 and an application to extend t
 7938;;;;40;
 7952;13/HGU/BPN/2002;2002;;;
 7953;2-2008-12-130-З;2008-12-16;;;
-7954;2-2008-12-130-З;2008-12-16;;;
+7954;18/3-2009-11;2009-11-02;;;
 7957;38/HGU/BPN/2000;2000;;;
-7960;49/HGU/BPN/2000;2000;;;
 7961;2-2008-12-131-З;2008-12-16;;;
 7964;217/Menhut-II/2007;2007;;;
 7967;;2007-11-03;2037-11-03;30;
@@ -1332,10 +1225,10 @@ The Chirano mining lease expired on April 7, 2019 and an application to extend t
 8034;No.  227.B/BPN/2010;2010;;;
 8043;84/HGU/BPN/2004;2004;;;Lease for oil palm (for HGUs) - 84/HGU/BPN/2004
 8044;92/HGU/BPN/2004;2004;;;Although there exist four estates the land was acquired on the same contract.
-8046;34/HGU/BPN/2005;2005;;;
 8050;;2004-09-03;;;The business activities of PT AKPL are based on a Location Permit from the Head of Kotawaringin Timur District under the Decree of Kotawaringin Timur District Head No 613.460.42 in Sampit dated 3 September 2004 (for a total plantation area of ±20,000 ha) and the Decree of Kotawaringin Timur District Head No 393.400.9.62.02/VII/2010 concerning a Land Permit.
 8055;525/077/EK/2005;2005;;;Plantation Business License (Izin Usaha Perkebunan Budidaya—IUP): Decree of the Seruyan District Head No. 525/077/EK/2005. Land Use Title (Hak Guna Usaha—HGU) is in process (based on old RSPO reports).
 8057;525.26/210/III/EKBANG/2007;2007-03-06;;;Plantation business permit for 14.300 Ha issued by Kotawaringin Timur District (No. 525.26/210/III/EKBANG/2007 dated 6th March 2007). Land use title (HGU) is in process based on old RSPO report
+8058;;;;50;
 8059;;;;;GFW data does not contain any HGU information and there could not be gathered any addtional information based on reports
 8063;;2013;;50;
 8066;29/HGU/BPN/2003;;;;
@@ -1362,14 +1255,9 @@ A environmental impact assessment (EIA) was conducted by accredited consultant C
 8120;;;2029;;
 8121;;;2029;;
 8123;;2001-02-22;;;Not sure about the contract number: 256/Menhut-VI/2001, 22-02-2001, 327/Menhut-II/2009, 12-06-2009, 180/Menhut-II/2013, 21-03-2013
-8126;75/Menhut-II/2007;2007;;;
-8128;348/MenhutII/2006;2006-06-12;;;
 8139;35/HGU/BPN/05;2005;;;The company owns also other land close by but contracts are from before 2000.
-8140;;;;;only contract related information is the appendix of the research report that mentions  a High Conservation Value Forest (HCVF) assessment conducted at the Forest Management Unit level in Southeast Asia
-8142;553/Menhut-II/2006;2006-12-22;;;
 8144;69//MenhutII/2007;2007-02-23;;;
 8152;99/HGU/BPN/05;2005;;;
-8154;;2008-11-12;;;Size of the land plot - 2,1893 ha, cadastral number - 6320888500:01:000:0285.
 8176;28/HGU/BPN/2001;2001-10-22;2036;;
 8205;;;;3;Ting Ying said villagers had signed leases for up to three years, at an annual rate of K200,000 an acre, but a year had passed and they had yet to be paid anything.
 8210;32/HGU/BPN-RI/07;2005-01-01;;;
@@ -1401,8 +1289,6 @@ A environmental impact assessment (EIA) was conducted by accredited consultant C
 8459;;2015;2065;50;
 8466;001/15;2015-08-16;2040-08-17;25;"Previously 044/11 by Soforma
 The concession is still visible on the government Forestry Atlas."
-8467;002/15;2015-08-16;2040-08-15;25;Contract 002/15
-8468;003/15;2015-08-16;2040-10-24;25;Previously concession 041/11
 8469;14;2008-12-18;2057-12-18;49;
 8470;8;2008-12-25;2057-12-25;49;
 8471;005/20;2020-01-14;2045-02-05;25;Previously Siforco 032/11
@@ -1416,7 +1302,7 @@ The concession is still visible on the government Forestry Atlas."
 8483;91-71/12;2012-05-18;2061-05-18;49;
 8492;16;2008-12-23;2057-12-23;49;
 8493;17;2008-12-18;2057-12-18;49;
-8546;;;;45;
+8548;Ka. BPN RI 62/HGU/BPN.RI/2014;2014-03-19;;;
 8560;64-HGU-BPN RI-2009;2009-04-30;;;
 8607;;2016-02-02;;5;the operating permit is granted for a period of 05 years renewable from the date of signature of this decree.
 8679;;2005;;25;Original lease to Shonga Farms (deal 1683). Renewable.
@@ -1432,6 +1318,7 @@ Concession number 1054"
 8733;;2015-04-15;2025-01-26;10;Can be renewed for periods of 5 years, indefinitely.
 8734;;2017-01-23;2022-01-23;5;It may be renewed for consecutive five-year periods until deposits are depleted.
 8737;;2016;2021;5;There is another company coming into the project, They will  engage with them to see if they can assist the community with the connections
+8744;0086/2013;2013-12-31;2062-12-31;49;
 8747;;2014-08;2034-08;20;The Wahgnion ML is valid for 20 years with an ability to renew for consecutive periods of five years until the reserves are depleted.
 8749;6;2008-04-15;2057-04-15;49;According to the company source, lease agreements are valid for up to 49 years
 8750;25;2011-05-19;2060-05-19;49;The company leases lands on a long-term perspective (up to 49 years)
@@ -1453,7 +1340,11 @@ The SMI License expires on November 14, 2023 following its fourth renewal but is
 8765;1808;2015-08-24;2064-08-24;49;According to the company source, lease agreements are valid for up to 49 years
 8766;1809;2008-12-31;2057-12-31;49;According to the company source, lease agreements are valid for up to 49 years
 8768;1901;2015-09-17;2064-09-17;49;According to the company source, lease agreements are valid for up to 49 years
+8770;;;;;contract number is not known
+8771;06/DIR/KMP/IV/2006;2006-04-10;;;Contract-Number is releated to an IUP contract and not to an HGU contract
+8774;;;;;NGO mentions IUP Permission but could not find information about the exact contract number
 8786;91-12-9/08;2008-12-08;2057-12-08;49;The company leases lands on a long-term perspective (up to 49 years)
+8799;;;;;contract number is not known
 8805;91-12-8/8;2008-12-16;2057-12-16;49;The company leases lands on a long-term perspective (up to 49 years)
 8806;91-12-10/08;2008-12-23;2057-12-23;49;The company leases lands on a long-term perspective (up to 49 years)
 8807;91-514/17;2017-12-08;2066-12-08;49;The company leases lands on a long-term perspective (up to 49 years)
@@ -1461,6 +1352,9 @@ The SMI License expires on November 14, 2023 following its fourth renewal but is
 8809;91-22-21/8;2008-12-24;2057-12-24;49;The company leases lands on a long-term perspective (up to 49 years)
 8810;91-470/17;2017-11-17;2066-11-17;49;The company leases lands on a long-term perspective (up to 49 years)
 8811;91-18-12/08;2008-12-18;2057-12-18;49;The company leases lands on a long-term perspective (up to 49 years)
+8812;;;;;contract number is not known
+8813;;;;;contract number is not known
+8814;;;;;contract number is not known
 8815;91-18-11/08;2008-12-24;2057-12-24;49;The company leases lands on a long-term perspective (up to 49 years)
 8816;91-298/17;2017-09-14;2066-09-14;49;The company leases lands on a long-term perspective (up to 49 years)
 8817;91-409/18;2018-06-21;2067-06-21;49;The company leases lands on a long-term perspective (up to 49 years)
@@ -1474,19 +1368,16 @@ The SMI License expires on November 14, 2023 following its fourth renewal but is
 8821;740/643;2009-12-23;2058-12-23;49;
 8822;244-з;2008-12-10;2057-12-10;49;The company leases lands on a long-term perspective (up to 49 years)
 8822;740/644;2009-12-23;2058-12-23;49;
-8839;;2018;2058;40;
+8839;;2018-01;2058;40;obtained a concession of  a period of over 40 years
 8844;PEA n°191;2018-09-26;2047-12-31;30;"It is unclear when the contract expires. The open timber portal makes not of 2045, the contract states ""This agreement covers the duration of the rotation as defined in the revised management plan, ie 30 years from January 1 of the year of its signature."""
 8877;;2016;2115;99;The land was leased to Hoima Sugar In 2016 for 99 years by Solomon Iguru Gafabusa, king of the ancient kingdom of Bunyoro-Kitara. He said the leased area was ancestral land and not part of the protected forest.
-8923;028/11;2011-10-21;;;
-8926;007/18;2018-06-11;2043-06-10;25;"The contract is valid for 25 years, with option to renew.
-Previous contract number 002/11. The contract number was changed on the 11th June 2018 to Ets. Kitenge Lola."
-8935;029/11;2011-10-24;;;
 8943;10-001;2010-09-14;2025-09-13;15;Renewable
 8943;10-002;2010-09-14;2025-09-13;15;Renewable
 8943;10-003;2010-09-14;2025-09-13;15;Renewable
 8943;10-004;2010-09-14;2025-09-13;15;Renewable
 8944;10-011;1998-03-27;;;
 8945;10-007;1998;;;
+8961;0028;2013-01-18;;;
 8962;№1;2008-06-30;2057-06-30;49;
 9017;0002;2013-01-03;;;
 9028;2010/3309;2010-11-29;;;
@@ -1524,10 +1415,11 @@ Previous contract number 002/11. The contract number was changed on the 11th Jun
 9076;1-step;2008-06-30;2057-06-30;49;
 9077;20;2007-11-01;2056-11-01;49;
 9078;36;2017-06-09;2066-06-09;49;
+9081;;2011-12-14;;30;
 9106;1073;2005-12-14;;;Concession forestière 1073 ( UFA 09-008 and 09-007)
-9111;1094;2012-01;;;
-9113;1029;2004;;;UFA 00 004, forest concession n ° 1029
+9111;1094;2012-01;;;FMU 09-025, concession number 1094
 9118;1066;2002;;;
+9139;;;;;Concesión Minera otorgada por tiempo Indefinido
 9160;Resolución 553;2010-03-16;;;Mediante Resolución 553 de 16 de marzo de 2010 el Ministerio de Ambiente vivienda y desarrollo territorial aprobó cesión de la Licencia Ambiental otorgada mediante resolución 2000 de 2009, de la empresa HOCOL S.A. a la empresa MAUREL & PROM COLOMBIA B.V.
 9168;No. 1 de 2019 COR-15;2017-06-01;;;"El Contrato de Exploración y Producción de Hidrocarburos No. 1 de 2019 COR-15 –, de fecha 1 de junio de 2017, fue celebrado por MAUREL & PROM COLOMBIA B.V, y la Agencia Nacional de Hidrocarburos – ANH.
 La ANLA expidió la Resolución 1795 de 2021 otorgándole la Licencia Ambiental al proyecto APE COR-15 de MAUREL & PROM COLOMBIA B.V con un total aproximado de 9 mil hectáreas, en 4 municipios del Boyacá (Tasco, Betéitiva, Corrales y Busbanzá), que se encuentra dentro del total del Bloque concesionado en 2017 por la ANH a Maurel & Prom Colombia B.P."
@@ -1535,5 +1427,87 @@ La ANLA expidió la Resolución 1795 de 2021 otorgándole la Licencia Ambiental 
 9230;1075;2007-09-12;;;Concession no 1075, Made up of forest management units 00 001 and 00 002
 9231;1069;2007-03;;;UFA 09-020. Concession Number 1069
 9232;09-023;2004-04;;;Concession number 1005. UFA 09-023
+9233;09-005b;2000-10-20;;;UFA 09-005b
 9239;1075;2007-12-07;;;UFAs: 00.001 and  00.002. Concession number 1075
 9264;№ 88;2006-03-22;2055-03-16;49;land plot with cadastral number 26:11:000000:129 (sized 3204 ha)
+9303;№ 72-з;2008-12-22;2028-12-31;20;
+9305;№ 73-з;2008-12-22;2029-12-31;21;
+9306;№ 93-з;2008-12-22;2029-12-31;21;
+9307;№ 31;2008-09-30;2057-09-30;49;
+9308;№ 32;2008-09-30;2057-09-30;49;
+9309;№ 22-з;2008-09-30;2057-09-30;49;
+9310;№ 26-з;2008-09-30;2057-09-30;49;
+9311;№ 24-з;2008-09-30;2057-09-30;49;
+9312;№ 20-з;2008-09-30;2057-09-30;49;
+9313;№ 35-з;2008-08-22;2057-08-22;49;
+9314;№ 21-з;2008-09-30;2057-09-30;49;
+9315;№ 25-з;2008-09-30;2057-09-30;49;
+9316;№ 23-з;2008-08-21;2057-08-21;49;
+9317;№ 101-з;2008-09-30;2057-09-30;49;
+9318;№ 56-з;2008-09-30;2057-09-30;49;
+9319;№ 102-з;2008-09-30;2057-09-30;49;
+9322;№ 17-37;2009-10-26;2024-10-26;15;
+9323;№ 27-32;2009-10-26;2024-10-26;15;
+9324;№ 11-8;2009-10-19;2024-10-19;15;
+9325;№ 20-20;2011-09-19;2026-09-19;15;
+9326;№ 20-19;2009-10-26;2024-10-26;15;
+9327;№ 18-21;2009-10-26;2024-10-26;15;
+9328;№ 18-22;2009-10-26;2024-11-22;15;
+9329;№ 17-16;2009-10-28;2030-06-11;15;
+9330;№ 18-14;2008-10-19;2030-12-13;22;
+9331;№ 18-20;2008-10-19;2031-11-29;22;
+9332;№ 18-19;2008-10-19;2031-11-29;22;
+9333;№ 20-76;2018-04-13;2067-04-12;49;
+9334;№ 32-34;2018-04-13;2027-08-20;9;
+9335;№02-02-16/188-2008;2008-06-26;2046-09-30;38;
+9336;№02-02- 16/125-2008;2008-09-09;2046-09-26;38;
+9337;"№02-02-16/195-2008; ";2008-09-10;2036-09-07;38;
+9338;№02-02- 16/191-2008;2008-08-25;2055-03-14;47;
+9339;"№02-02-16/192-2008;";2008-08-25;2051-10-15;43;
+9340;№02-02-16/124-2008;2008-07-28;2054-03-09;46;
+9341;№02-02-16/154-2008;2008-08-09;2055-06-08;47;
+9342;№02-02-16/122-2008;2008-04-22;2052-05-20;43;
+9343;№02-02-16/123-2008;2008-08-28;2054-01-31;45;
+9344;"№02-02-16/193-2008;";2008-08-27;2053-01-08;44;
+9345;№02-02-16/240-2008;2008-05-25;2057-05-20;49;
+9346;№02-02-16/8-2011;2011-02-24;2060-03-01;49;
+9347;№02-02-16/153-2008;2008-04-08;2054-06-15;46;
+9348;№237/ ПРЗ-13-144;2013-09-17;;;sublease agreement
+9349;№02-02-16/52- 2008;2008-05-20;2057-05-20;49;
+9350;432;2008-09-19;2045-01-01;36;
+9351;433;2008-09-19;2028-08-12;20;
+9352;434;2008-11-17;2052-03-11;43;
+9353;435;2008-11-18;2051-06-19;42;
+9354;436;2008-11-17;2028-05-20;19;
+9355;438;2008-11-17;2031-06-28;20;
+9356;439;2008-09-24;2022-11-16;13;
+9357;440;2009-02-24;2046-11-16;38;
+9358;445;2008-11-13;2030-09-20;22;
+9359;86-з;2008-12-22;2024-12-31;16;
+9360;87-з;2008-12-25;2023-12-31;15;
+9361;88-з;2008-12-25;2023-12-31;15;
+9362;48-з;2008-12-15;2028-12-31;20;
+9363;49-з;2008-12-15;2028-12-31;20;
+9364;46-з;2008-12-15;2029-12-31;21;
+9365;51-з;2008-12-15;2029-12-31;21;
+9366;47-з;2008-12-15;2031-12-27;23;
+9367;47-з;2008-12-15;2031-12-11;23;
+9371;85-З;2008-12-10;2028-12-10;20;
+9372;76-З;2008-12-10;2057-12-10;49;
+9373;79-З;2008-12-10;2057-12-10;49;
+9374;80-З;2008-12-10;2057-12-10;49;
+9375;14/3;2009-11;2058-11;49;
+9376;74-З;2008-12-10;2057-12-10;49;
+9377;81-З;2008-12-10;2028-12-10;20;
+9378;84-З;2008-12-10;2057-12-10;49;
+9380;;2017-04-01;;;Sublease sized 2658,6089 ha.
+9385;;2015-12-04;2065;50;"The Government allocates a lease land for a period of a maximum of 50 years following Decision No.3471/QD-UBND dated 04/12/2015 issued by the People’s Committee of Binh Thuan province on approval of investment policy. Some extra decisions: 
+- Decision No.1984/QĐ-UBND dated 07/8/2019 on the adjustment of investment policy 
+- Decision No.223/QĐ-UBND dated 23/01/2017 on approval of general construction planning, ratio 1/5000 along the coastline of Tan Thanh, Ham Thuan Nam district, Binh Thuan province 
+- Decision No.39/QĐ-UBND dated 22/01/2020 on approval of detailed construction planning 
+"
+9387;3109;2019;2089;70;The Government allocates a lease land for a period of a maximum of 70 years following Decision No.3019/QD-UBND issued by the People’s Committee of Vinh Phuc Province on approval of investment policy (dated 26/11/2019) 
+9389;;2017-06-26;2067;50;The Government allocates a lease land for a period of a maximum of 50 years following Decision No.2293/QD-UBND issued by the People’s Committee of Quang Nam province on approval of investment policy (dated 26/6/2017) 
+9391;;2008-02-28;;50;The Government allocates a lease land for a period of a maximum of 50 years following the Decision No.410/QD-UBND issued by the People’s Committee of Ha Tay province on approval of investment policy (dated 28/02/2008) and the decision on the adjustment of the investment project was issued on 26/06/2020 by People’s Committee of Hanoi City, the Decision No.5723/QDD-UBND on approval of the overall adjustment of the detailed construction project planning made on 24/10/2018 by  People’s Committee of Hanoi City. 
+9392;;;;;The Government allocates a lease land for a period of maximum of 50 years following Decision No.13/QD-UBND issued by the People’s Committee of Hoa Binh  province on approval of investment policy (dated 10/5/2021) 
+9396;№ 2-2011-03-2-З;2011-03-28;;;
