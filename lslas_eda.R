@@ -111,6 +111,7 @@ domestic_locations[, c("Lat", "Long") := tstrsplit(Point, ",", fixed=TRUE)]
 domestic_locations <- domestic_locations[!is.na(Lat) & !is.na(Long)]
 
 br_domestic_deals <- st_as_sf(domestic_locations[`Target country`=="Brazil"], coords = c("Long", "Lat"), crs=4674)
+py_domestic_deals <- st_as_sf(domestic_locations[`Target country`=="Paraguay"], coords = c("Long", "Lat"), crs=4674)
 pr_domestic_deals <- st_as_sf(domestic_locations[`Target country`=="Peru"], coords = c("Long", "Lat"), crs=4326)
 
 
@@ -118,14 +119,27 @@ transnational_locations <- merge(transnational_locations, unique(transnational_d
 transnational_locations[, c("Lat", "Long") := tstrsplit(Point, ",", fixed=TRUE)]
 
 br_transnational_deals <- st_as_sf(transnational_locations[`Target country`=="Brazil"], coords = c("Long", "Lat"), crs=4674)
+py_transnational_deals <- st_as_sf(transnational_locations[`Target country`=="Paraguay"], coords = c("Long", "Lat"), crs=4674)
 pr_transnational_deals <- st_as_sf(transnational_locations[`Target country`=="Peru"], coords = c("Long", "Lat"),crs=4326)
+
 
 
 
 br_states <- st_read("raw/BR_UF_2021/BR_UF_2021.shp")
 pr_states <- st_read("raw/per_adm_ign_20200714_shp/per_admbnda_adm1_ign_20200714.shp")
+py_states <- st_read("raw/pry_adm_dgeec_2020_shp/pry_admbnda_adm1_DGEEC_2020.shp")
+greg <- st_read("raw/GREG/GREG.shp")
+
+geoepr <- st_read("raw/GeoEPR-2021/GeoEPR-2021.shp")
+
+growup <-fread("raw/growup/data.csv")
+# View(growup[,max(year), by=eval(colnames(growup)[colnames(growup)!="year"])])
+growupBR2020 <- growup[year==max(year) & countryname=="Brazil"]
+growupPY2020 <- growup[year==max(year) & countryname=="Paraguay"]
 
 
+br_greg <- greg[greg$FIPS_CNTRY=="BR",]
+  
 inf_br <- as.data.table(read_excel("raw/infrastructure_BR.xlsx"))
 setnames(inf_br, c("Type of land registration system in the economy:"), c("land_registration_system"))
 inf_br[Location=="Federal District", Location := "Distrito Federal"]
@@ -137,30 +151,43 @@ setnames(inf_pr, c("Type of land registration system in the economy:"), c("land_
 ldr_br <- as.data.table(read_excel("raw/ldr_BR.xlsx"))
 setnames(ldr_br, c("Land dispute resolution index (0–8)"), c("land_dispute_resolution_index"))
 ldr_br[Location=="Federal District", Location := "Distrito Federal"]
-ldr_pr <- as.data.tabl(read_excel("raw/ldr_PR.xlsx"))
+
+ldr_pr <- as.data.table(read_excel("raw/ldr_PR.xlsx"))
 setnames(ldr_pr, c("Land dispute resolution index (0–8)"), c("land_dispute_resolution_index"))
 
-
+# Merge geo data with World Bank indices
 br_states <- merge(br_states, inf_br[,.(Location, land_registration_system)], by.x="NM_UF", by.y="Location")
 br_states <- merge(br_states, ldr_br[,.(Location, land_dispute_resolution_index)], by.x="NM_UF", by.y="Location")
 
-# br_states <- st_transform(br_states, crs=4674)
-# br_states <- st_set_crs(br_states, "+proj=longlat +ellps=GRS80 +towgs84=0,0,0 +no_defs")
+pr_states <- merge(pr_states, inf_pr[,.(Location, land_registration_system)], by.x="ADM1_ES", by.y="Location", all.x=T)
+pr_states <- merge(pr_states, ldr_pr[,.(Location, land_dispute_resolution_index)], by.x="ADM1_ES", by.y="Location", all.x=T)
 
+
+# Make sure CRS is properly specified
+br_states <- st_set_crs(br_states, "+proj=longlat +ellps=GRS80 +towgs84=0,0,0 +no_defs")
+br_states <- st_transform(br_states, crs=4674)
 
 
 ggplot() +
   geom_sf(data=br_states,aes(fill=land_dispute_resolution_index)) +
   geom_sf_label(data=br_states,aes(label = NM_UF)) +
-  geom_sf(data=br_domestic_deals)
+  geom_sf(data=br_domestic_deals, size=2.5, alpha=0.3, color="blue") +
+  geom_sf(data=br_transnational_deals, size=2.5, alpha=0.3, color="green") 
 
+ggplot() +
+  geom_sf(data=py_states) +
+  geom_sf_label(data=py_states,aes(label = ADM1_ES)) +
+  geom_sf(data=py_domestic_deals, size=2.5, alpha=0.5, color="blue") +
+  geom_sf(data=py_transnational_deals, size=2.5, alpha=0.5, color="green")
 
+ggplot() +
+  geom_sf(data=pr_states,aes(fill=land_dispute_resolution_index)) +
+  geom_sf_label(data=pr_states,aes(label = ADM1_ES)) +
+  geom_sf(data=pr_domestic_deals, size=2.5, alpha=0.3, color="blue") +
+  geom_sf(data=pr_transnational_deals, size=2.5, alpha=0.3, color="green")
 
-
-ggplot(pr_states) +
-  geom_sf() +
-  geom_sf_label(aes(label = ADM1_ES))
-
+ggplot(geoepr[geoepr$statename=="Paraguay",]) +
+  geom_sf(aes(fill=groupid))
 
 # Only run from here above
 
