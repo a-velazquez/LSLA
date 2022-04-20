@@ -227,3 +227,5 @@ ggplot(deals_tm[(year(year) > 1990 & year(year) <= 2022)], aes(x=year, y=V1, col
 # "Size under contract (leased or purchased area, in ha)" 
 # "Deal scope"
 
+
+
