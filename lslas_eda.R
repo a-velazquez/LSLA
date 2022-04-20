@@ -60,7 +60,7 @@ clean_deals <- function(df, original, add_items=c()){
   df[,`:=`("year"=substr(date,1,4))]
   df_tm <- df[year != ""]
   
-  df_tm[, `:=`("year"=as.Date(paste0(df_tm$year, "-12-31"), "%Y-%m-%d"))]
+  df_tm[, `:=`("year"=as.Date(paste0(df_tm$year, "-01-01"), "%Y-%m-%d"))]
   
   by_vec <- c(c("year", "Deal scope"), add_items)
 
@@ -189,63 +189,12 @@ ggplot() +
 ggplot(geoepr[geoepr$statename=="Paraguay",]) +
   geom_sf(aes(fill=groupid))
 
-# Only run from here above
 
-################
-#################
-#################
-
-
-deals_tm <- rbind(transnational_tm, domestic_tm)
+deals_tm <- rbind(countryDeals_domestic, countryDeals_transnational)
 deals_tm <- deals_tm[,sum(N), by=c("year", "Deal scope")]
 
 
-
-deals[,`:=`(`Deal ID`, as.integer(`Deal ID`))]
-deals<-deals[grepl("Contract signed",`Negotiation status`, fixed = TRUE)]
-
-
-# Variables related to outcomes of interest:
-# "Displacement of people"                                                                                                        
-# "Number of people actually displaced"                                                                                           
-# "Number of households actually displaced"                                                                                       
-# "Number of people displaced out of their community land"                                                                        
-# "Number of people displaced staying on community land"   
-# "Comment on displacement of people"  
-# "Export" 
-# "Intention of investment"
-# "Size under contract (leased or purchased area, in ha)" 
-# "Deal scope"
-
-head(deals$`Negotiation status`)
-# deals[,`:=`("date"=gsub("[^0-9]","", `Negotiation status`))]
-deals[,`:=`("date"=gsub("[^0-9]","", `Negotiation status`))]
-deals[,`:=`("date"=sub("#.*", "", `Size under contract (leased or purchased area, in ha)`))]
-head(deals$date, 50)
-
-deals[,`:=`("year"=substr(date,1,4))]
-
-# Deals with no date attached
-nrow(deals)-nrow(deals[year != ""])
-
-# View(deals[year == ""])
-# View(deals[grepl("abandoned",`Implementation status`,ignore.case = TRUE)])
-
-abandoned<-deals[grepl("abandoned",`Implementation status`,ignore.case = TRUE)]
-deals_tm <- deals[year != ""]
-
-deals_tm[, `:=`("year"=as.Date(paste0(deals_tm$year, "-12-31"), "%Y-%m-%d"))]
-deals_tm<-deals_tm[,.N, by=year]
-
-# ggplot(deals_tm, aes(x=year, y=N))+ 
-#   geom_line()+
-#   geom_point()+
-#   theme_minimal()+
-#   labs(title="Large Scale Land Acquisitions\n",
-#        x="Year", y="Number of Contracts Signed\n")+
-#   scale_x_date(date_breaks = "1 year", date_labels = "%Y")+
-#   scale_y_continuous(n.breaks = 10)+
-#   theme(plot.title = element_text(hjust = 0.5))
+deals_tm[, `:=`("year"=as.Date(paste0(deals_tm$year, "-01-01"), "%Y-%m-%d"))]
 
 
 ggplot(deals_tm[(year(year) > 1990 & year(year) <= 2022)], aes(x=year, y=V1, color =`Deal scope` ))+ 
@@ -263,9 +212,18 @@ ggplot(deals_tm[(year(year) > 1990 & year(year) <= 2022)], aes(x=year, y=V1, col
   scale_color_manual(labels=c("Domestic", "Transnational"), values = c("#ff6666","#525266"))+
   theme(plot.title = element_text(hjust = 0.5))
 
-# ,axis.text.x = element_text(angle = 45, vjust = 0.5, hjust=1,margin = margin(t = 0, r = 0, b = 0, l = 0))
+# ggsave("lsla_timeline.pdf")
 
-# ggsave("lsla_timeline.jpg", width = 1200, height = 400, units="mm",scale = 0.3)
-ggsave("lsla_timeline.pdf")
 
-# lsla<-merge.data.table(deals, contracts, by="Deal ID",all.x = TRUE)
+# Variables related to outcomes of interest, to explore later:
+# "Displacement of people"                                                                                                        
+# "Number of people actually displaced"                                                                                           
+# "Number of households actually displaced"                                                                                       
+# "Number of people displaced out of their community land"                                                                        
+# "Number of people displaced staying on community land"   
+# "Comment on displacement of people"  
+# "Export" 
+# "Intention of investment"
+# "Size under contract (leased or purchased area, in ha)" 
+# "Deal scope"
+
