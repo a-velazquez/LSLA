@@ -23,7 +23,7 @@ r2 <- crop(pop, raster::extent(pr_states))
 # this SUPPOSEDLY makes everything that isn't contained within Peru's borders NA, but it does not work
 r2 <- mask(r2, pr_states)
 
-# this (ripped off from internet) converts to df, but I think it's not working correctly for this data
+# this (ripped off from internet) converts to df
 rasterdf <- function(x, aggregate = 5) {
   resampleFactor <- aggregate        
   inputRaster <- x    
@@ -48,8 +48,8 @@ rasterdf <- function(x, aggregate = 5) {
   return(dat)
 }
 
-# call function
-r2_df <- rasterdf(r2)
+# need to specify which raster grid to put into the df
+r2_df <- rasterdf(r2$`landscan-global-2020-colorized_3`)
 
 summary(r2_df)
 
@@ -59,7 +59,7 @@ summary(r2_df)
 #   scale_fill_gradient(name = "Population", low = "yellow", high = "red")
 
 
-# this is a useless plot
+# no longer useless
 ggplot() +  
   geom_raster(data = r2_df, aes(x = x, y = y, fill = value)) +
   geom_sf(data=pr_states, color = "grey50", fill = NA, size = 1) +
