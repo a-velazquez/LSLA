@@ -3,6 +3,7 @@ library(ggplot2)
 library(lubridate)
 library(sf) 
 library(readxl)
+library(ggnewscale)
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
@@ -113,6 +114,9 @@ domestic_locations <- domestic_locations[!is.na(Lat) & !is.na(Long)]
 br_domestic_deals <- st_as_sf(domestic_locations[`Target country`=="Brazil"], coords = c("Long", "Lat"), crs=4674)
 py_domestic_deals <- st_as_sf(domestic_locations[`Target country`=="Paraguay"], coords = c("Long", "Lat"), crs=4674)
 pr_domestic_deals <- st_as_sf(domestic_locations[`Target country`=="Peru"], coords = c("Long", "Lat"), crs=4326)
+bl_domestic_deals <- st_as_sf(domestic_locations[`Target country`=="Bolivia"], coords = c("Long", "Lat"), crs=4326)
+ar_domestic_deals <- st_as_sf(domestic_locations[`Target country`=="Argentina"], coords = c("Long", "Lat"), crs=4326)
+lb_domestic_deals <- st_as_sf(domestic_locations[`Target country`=="Liberia"], coords = c("Long", "Lat"), crs=4326)
 
 
 transnational_locations <- merge(transnational_locations, unique(transnational_deals[,.(`Deal ID`,`Target country`)]), by="Deal ID")
@@ -121,22 +125,37 @@ transnational_locations[, c("Lat", "Long") := tstrsplit(Point, ",", fixed=TRUE)]
 br_transnational_deals <- st_as_sf(transnational_locations[`Target country`=="Brazil"], coords = c("Long", "Lat"), crs=4674)
 py_transnational_deals <- st_as_sf(transnational_locations[`Target country`=="Paraguay"], coords = c("Long", "Lat"), crs=4674)
 pr_transnational_deals <- st_as_sf(transnational_locations[`Target country`=="Peru"], coords = c("Long", "Lat"),crs=4326)
+bl_transnational_deals <- st_as_sf(transnational_locations[`Target country`=="Bolivia"], coords = c("Long", "Lat"),crs=4326)
+ar_transnational_deals <- st_as_sf(transnational_locations[`Target country`=="Argentina"], coords = c("Long", "Lat"),crs=4326)
+lb_transnational_deals <- st_as_sf(transnational_locations[`Target country`=="Liberia"], coords = c("Long", "Lat"),crs=4326)
 
 
 
 
 br_states <- st_read("raw/BR_UF_2021/BR_UF_2021.shp")
+br_municipalities <- st_read("raw/bra_adm_ibge_2020_shp/bra_admbnda_adm2_ibge_2020.shp")
 pr_states <- st_read("raw/per_adm_ign_20200714_shp/per_admbnda_adm1_ign_20200714.shp")
 py_states <- st_read("raw/pry_adm_dgeec_2020_shp/pry_admbnda_adm1_DGEEC_2020.shp")
-greg <- st_read("raw/GREG/GREG.shp")
+
+bl_states <- st_read("raw/bol_adm_gb2014_shp/bol_admbnda_adm1_gov_2020514.shp")
+ar_states <- st_read("raw/arg_adm_unhcr2017_shp/arg_admbnda_adm1_unhcr2017.shp")
+
 
 geoepr <- st_read("raw/GeoEPR-2021/GeoEPR-2021.shp")
 
+  
 growup <-fread("raw/growup/data.csv")
 # View(growup[,max(year), by=eval(colnames(growup)[colnames(growup)!="year"])])
+growup <- growup[year==max(year)]
+growup[,"groupid" := substr(gwgroupid, 5,8)]
+
 growupBR2020 <- growup[year==max(year) & countryname=="Brazil"]
 growupPY2020 <- growup[year==max(year) & countryname=="Paraguay"]
 
+
+
+geoepr <- merge(geoepr, unique(growup[,.(gwgroupid, statusname)]), 
+                by="gwgroupid")
 
 br_greg <- greg[greg$FIPS_CNTRY=="BR",]
   
@@ -168,23 +187,126 @@ br_states <- st_set_crs(br_states, "+proj=longlat +ellps=GRS80 +towgs84=0,0,0 +n
 br_states <- st_transform(br_states, crs=4674)
 
 
+bl_states <- st_set_crs(bl_states, "+proj=longlat +ellps=GRS80 +towgs84=0,0,0 +no_defs")
+bl_states <- st_transform(bl_states, crs=4674)
+
+ar_states <- st_set_crs(ar_states, "+proj=longlat +ellps=GRS80 +towgs84=0,0,0 +no_defs")
+ar_states <- st_transform(ar_states, crs=4674)
+
+br_municipalities <- st_set_crs(br_municipalities, "+proj=longlat +ellps=GRS80 +towgs84=0,0,0 +no_defs")
+br_municipalities <- st_transform(br_municipalities, crs=4674)
+
+
 ggplot() +
-  geom_sf(data=br_states,aes(fill=land_dispute_resolution_index)) +
-  geom_sf_label(data=br_states,aes(label = NM_UF)) +
-  geom_sf(data=br_domestic_deals, size=2.5, alpha=0.3, color="blue") +
-  geom_sf(data=br_transnational_deals, size=2.5, alpha=0.3, color="green") 
+  geom_sf(data=br_states) +
+  geom_sf(data=geoepr[geoepr$statename=="Brazil",], aes(fill=statusname), alpha=0.2, lwd=0, show.legend = "polygon")+
+  scale_fill_manual(name="Ethno-Ling. Group Status", labels=c("Monopoly", "Powerless"), values = c("blue","red"))+
+  # geom_sf_label(data=br_states,aes(label = NM_UF)) +
+  geom_sf(data=br_domestic_deals, aes(color="br_domestic_deals"), size=2.5, alpha=0.3, show.legend = "point") +
+  geom_sf(data=br_transnational_deals, inherit.aes = FALSE, aes(color="br_transnational_deals"), size=2.5, alpha=0.3, show.legend = "point")+
+  scale_color_manual(name="Deal Scope", labels=c("Domestic Deals","Transnational Deals"), values = c( "blue","green"))+
+  theme_minimal()+
+  guides(fill = guide_legend(override.aes = list(color = c(NA, NA) ) ) )
+
+
+ggplot() +
+  geom_sf(data=py_states) +
+  geom_sf(data=geoepr[geoepr$statename=="Paraguay",], aes(fill=statusname), alpha=0.2, lwd=0, show.legend = "polygon")+
+  scale_fill_manual(name="Ethno-Ling. Group Status", labels=c("Monopoly", "Powerless"), values = c("blue","red"))+
+  # geom_sf_label(data=py_states,aes(label = NM_UF)) +
+  geom_sf(data=py_domestic_deals, aes(color="py_domestic_deals"), size=2.5, alpha=0.3, show.legend = "point") +
+  geom_sf(data=py_transnational_deals, inherit.aes = FALSE, aes(color="br_transnational_deals"), size=2.5, alpha=0.3, show.legend = "point")+
+  scale_color_manual(name="Deal Scope", labels=c("Domestic Deals","Transnational Deals"), values = c( "blue","green"))+
+  theme_minimal()+
+  guides(fill = guide_legend(override.aes = list(color = c(NA, NA) ) ) )
+
+
+ggplot() +
+  geom_sf(data=pr_states) +
+  geom_sf(data=geoepr[geoepr$statename=="Peru",], aes(fill=statusname), alpha=0.2, lwd=0, show.legend = "polygon")+
+  scale_fill_manual(name="Ethno-Ling. Group Status", labels=c("Dominant", "Powerless"), values = c("blue","red"))+
+  # geom_sf_label(data=py_states,aes(label = NM_UF)) +
+  geom_sf(data=pr_domestic_deals, aes(color="pr_domestic_deals"), size=2.5, alpha=0.3, show.legend = "point") +
+  geom_sf(data=pr_transnational_deals, inherit.aes = FALSE, aes(color="pr_transnational_deals"), size=2.5, alpha=0.3, show.legend = "point")+
+  scale_color_manual(name="Deal Scope", labels=c("Domestic Deals","Transnational Deals"), values = c( "blue","green"))+
+  theme_minimal()+
+  guides(fill = guide_legend(override.aes = list(color = c(NA, NA) ) ) )
+
+
+ggplot() +
+  geom_sf(data=bl_states) +
+  geom_sf(data=geoepr[geoepr$statename=="Bolivia",], aes(fill=statusname), alpha=0.2, lwd=0, show.legend = "polygon")+
+  scale_fill_manual(name="Ethno-Ling. Group Status", labels=c("Dominant", "Powerless"), values = c("blue","red"))+
+  # geom_sf_label(data=py_states,aes(label = NM_UF)) +
+  geom_sf(data=bl_domestic_deals, aes(color="bl_domestic_deals"), size=2.5, alpha=0.3, show.legend = "point") +
+  geom_sf(data=bl_transnational_deals, inherit.aes = FALSE, aes(color="bl_transnational_deals"), size=2.5, alpha=0.3, show.legend = "point")+
+  scale_color_manual(name="Deal Scope", labels=c("Domestic Deals","Transnational Deals"), values = c( "blue","green"))+
+  theme_minimal() +
+  guides(fill = guide_legend(override.aes = list(color = c(NA, NA) ) ) )
+
+
+
+ggplot() +
+  geom_sf(data=ar_states) +
+  geom_sf(data=geoepr[geoepr$statename=="Argentina",], aes(fill=statusname), alpha=0.2, lwd=0, show.legend = "polygon")+
+  scale_fill_manual(name="Ethno-Ling. Group Status", labels=c("Monopoly", "Powerless"), values = c("blue","red"))+
+  # geom_sf_label(data=py_states,aes(label = NM_UF)) +
+  geom_sf(data=ar_domestic_deals, aes(color="ar_domestic_deals"), size=2.5, alpha=0.3, show.legend = "point") +
+  geom_sf(data=ar_transnational_deals, inherit.aes = FALSE, aes(color="ar_transnational_deals"), size=2.5, alpha=0.3, show.legend = "point")+
+  scale_color_manual(name="Deal Scope", labels=c("Domestic Deals","Transnational Deals"), values = c( "blue","green"))+
+  theme_minimal()+
+  guides(fill = guide_legend(override.aes = list(color = c(NA, NA) ) ) )
+
+
+
+adm_liberia_rep <- readRDS("raw/adm-boundaries.rds")
+inst_boundary_liberia_rep <- readRDS("raw/institutional-boundary.rds")
+
+# names(adm_liberia_rep)
+
+smallest_subnational <- adm_liberia_rep$adm3
+
+ggplot()+
+  geom_sf(data=smallest_subnational, lwd=0.15)+
+  geom_sf(data=inst_boundary_liberia_rep$`40mi`, lwd=1)+
+  geom_sf(data=lb_domestic_deals, aes(color="lb_domestic_deals"), size=2.5, alpha=0.6, show.legend = "point") +
+  geom_sf(data=lb_transnational_deals, inherit.aes = FALSE, aes(color="lb_transnational_deals"), size=2.5, alpha=0.6, show.legend = "point")+
+  scale_color_manual(name="Deal Scope", labels=c("Domestic Deals","Transnational Deals"), values = c( "blue","green"))+
+  theme_minimal()
+
+
+
+
+
+
+
+# ggplot() +
+#   geom_sf(data=br_municipalities, lwd=0.06) +
+#   # geom_sf_label(data=br_states,aes(label = NM_UF)) +
+#   geom_sf(data=br_domestic_deals, size=2.5, alpha=0.3, color="blue") +
+#   geom_sf(data=br_transnational_deals, size=2.5, alpha=0.1, color="green")+
+#   geom_sf(data=geoepr[geoepr$statename=="Brazil" & geoepr$groupid==1000,], aes(fill=factor(groupid)), alpha=0.1)+
+#   geom_sf(data=geoepr[geoepr$statename=="Brazil" & geoepr$groupid==2000,], aes(fill=factor(groupid)), alpha=0.1)+
+#   geom_sf(data=geoepr[geoepr$statename=="Brazil" & geoepr$groupid==3000,], aes(fill=factor(groupid)), alpha=0.1)
+
+
 
 ggplot() +
   geom_sf(data=py_states) +
   geom_sf_label(data=py_states,aes(label = ADM1_ES)) +
   geom_sf(data=py_domestic_deals, size=2.5, alpha=0.5, color="blue") +
-  geom_sf(data=py_transnational_deals, size=2.5, alpha=0.5, color="green")
+  geom_sf(data=py_transnational_deals, size=2.5, alpha=0.5, color="green")+
+  geom_sf(data=geoepr[geoepr$statename=="Paraguay",], aes(fill=factor(groupid)), alpha=0.2)+
+  theme_minimal()
 
 ggplot() +
-  geom_sf(data=pr_states,aes(fill=land_dispute_resolution_index)) +
+  geom_sf(data=pr_states) +
+  # geom_sf(data=pr_states,aes(fill=land_dispute_resolution_index)) +
   geom_sf_label(data=pr_states,aes(label = ADM1_ES)) +
-  geom_sf(data=pr_domestic_deals, size=2.5, alpha=0.3, color="blue") +
-  geom_sf(data=pr_transnational_deals, size=2.5, alpha=0.3, color="green")
+  geom_sf(data=pr_domestic_deals, size=2.5, alpha=0.6, color="blue") +
+  geom_sf(data=pr_transnational_deals, size=2.5, alpha=0.6, color="green")+
+  geom_sf(data=geoepr[geoepr$statename=="Peru",], aes(fill=factor(groupid)), alpha=0.2)+
+  theme_minimal()
 
 ggplot(geoepr[geoepr$statename=="Paraguay",]) +
   geom_sf(aes(fill=groupid))
